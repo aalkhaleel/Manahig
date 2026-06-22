@@ -82,6 +82,8 @@ generateButton.addEventListener("click", async () => {
   await buildStudySet(syllabusText.value);
 });
 loadMathButton.addEventListener("click", loadBundledMathCurriculum);
+const loadEnglishButton = document.querySelector("#loadEnglishButton");
+loadEnglishButton.addEventListener("click", loadEnglishCurriculum);
 sampleButton.addEventListener("click", async () => {
   syllabusText.value = sampleText;
   await buildStudySet(sampleText);
@@ -138,6 +140,18 @@ function readFile(file) {
     await buildStudySet(syllabusText.value);
   };
   reader.readAsText(file, "utf-8");
+}
+
+async function loadEnglishCurriculum() {
+  try {
+    const response = await fetch("data/english-question-bank.json");
+    if (!response.ok) throw new Error("LOAD_FAILED");
+    const content = await response.text();
+    if (!tryLoadQuestionBank(content)) throw new Error("INVALID_BANK");
+  } catch {
+    renderEmpty("تعذر تحميل كتاب الإنجليزي. افتح التطبيق عبر خادم محلي أو ارفع الملف من مجلد data يدويًا.");
+    showPanel("chaptersPanel");
+  }
 }
 
 async function loadBundledMathCurriculum() {
