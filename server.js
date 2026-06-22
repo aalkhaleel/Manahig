@@ -13,7 +13,7 @@ const MODEL = process.env.AI_MODEL || 'claude-haiku-4-5-20251001';
 const MAX_CHAPTERS = 15;
 
 app.use(express.json({ limit: '10mb' }));
-app.use(express.static(__dirname));
+app.use(express.static(dirname(fileURLToPath(import.meta.url)) + '/public'));
 
 app.get('/api/status', (_req, res) => {
   res.json({ hasKey: !!process.env.ANTHROPIC_API_KEY, model: MODEL });
