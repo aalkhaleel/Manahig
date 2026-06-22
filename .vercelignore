@@ -1,0 +1,9 @@
+node_modules
+.env
+server.js
+tools
+ara.traineddata
+eng.traineddata
+math3-1.pdf
+.git
+generated-curriculum

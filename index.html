@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>مذاكر | بنك أسئلة ذكي</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="لوحة التحكم">
+        <div class="brand">
+          <span class="brand-mark">م</span>
+          <div>
+            <strong>مذاكر</strong>
+            <span>منهجك إلى مسابقات</span>
+          </div>
+        </div>
+
+        <nav class="nav-list" aria-label="التنقل">
+          <button class="nav-item active" data-panel="uploadPanel" type="button">
+            <span aria-hidden="true">+</span>
+            رفع المنهج
+          </button>
+          <button class="nav-item" data-panel="chaptersPanel" type="button">
+            <span aria-hidden="true">#</span>
+            الفصول
+          </button>
+          <button class="nav-item" data-panel="quizPanel" type="button">
+            <span aria-hidden="true">?</span>
+            المسابقة
+          </button>
+          <button class="nav-item" data-panel="bankPanel" type="button">
+            <span aria-hidden="true">=</span>
+            بنك الأسئلة
+          </button>
+        </nav>
+
+        <div class="stats">
+          <div>
+            <span id="chapterCount">0</span>
+            <small>فصل</small>
+          </div>
+          <div>
+            <span id="questionCount">0</span>
+            <small>سؤال</small>
+          </div>
+        </div>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">مساعد مذاكرة تفاعلي</p>
+            <h1>حوّل المنهج إلى مسابقات مرتبة حسب الفصول.</h1>
+          </div>
+          <button class="ghost-button" id="resetButton" type="button">بدء جديد</button>
+        </header>
+
+        <section class="hero-strip" aria-label="ملخص التطبيق">
+          <div class="hero-copy">
+            <h2>جلسة مذاكرة مرتبة، فصلًا بعد فصل.</h2>
+            <p>لوحة واحدة للمنهج، الفصول، المسابقات، وبنك الأسئلة.</p>
+          </div>
+          <img src="assets/study-visual.png" alt="كتب وبطاقات مذاكرة على مكتب طالب" />
+        </section>
+
+        <section class="panel active" id="uploadPanel">
+          <div class="upload-grid">
+            <label class="drop-zone" id="dropZone">
+              <input id="fileInput" type="file" accept=".pdf,.txt,.md,.csv,.json" />
+              <span class="upload-icon" aria-hidden="true">↑</span>
+              <strong>اسحب ملف المنهج هنا</strong>
+              <small>يدعم PDF والنصوص وملفات Markdown وCSV وJSON</small>
+            </label>
+
+            <div class="text-import">
+              <label for="syllabusText">أو ألصق محتوى المنهج</label>
+              <textarea id="syllabusText" placeholder="الفصل الأول: مقدمة في الخلايا&#10;تتكون الخلية من غشاء وسيتوبلازم ونواة..."></textarea>
+              <p id="aiStatus" class="ai-status" hidden></p>
+              <div class="actions">
+                <button class="primary-button" id="generateButton" type="button">توليد بنك الأسئلة</button>
+                <button class="secondary-button" id="loadMathButton" type="button">تحميل منهج الرياضيات</button>
+                <button class="secondary-button" id="sampleButton" type="button">تجربة عينة</button>
+              </div>
+            </div>
+          </div>
+          <div class="extraction-panel" id="extractionPanel" hidden>
+            <div class="extraction-head">
+              <div>
+                <p class="eyebrow">فحص الملف</p>
+                <h2 id="extractionTitle">لم يتم تحليل ملف بعد</h2>
+              </div>
+              <button class="secondary-button" id="ocrButton" type="button" hidden>تشغيل OCR</button>
+            </div>
+            <div class="quality-grid">
+              <div>
+                <span id="pageTotal">0</span>
+                <small>صفحة</small>
+              </div>
+              <div>
+                <span id="charTotal">0</span>
+                <small>حرف مستخرج</small>
+              </div>
+              <div>
+                <span id="qualityLabel">-</span>
+                <small>جودة القراءة</small>
+              </div>
+            </div>
+            <progress id="extractProgress" max="100" value="0"></progress>
+            <textarea id="extractedPreview" readonly aria-label="معاينة النص المستخرج"></textarea>
+          </div>
+        </section>
+
+        <section class="panel" id="chaptersPanel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">الفصول المستخرجة</p>
+              <h2>نظرة سريعة على تقسيم المنهج</h2>
+            </div>
+            <select id="chapterFilter" aria-label="اختيار الفصل"></select>
+          </div>
+          <div class="chapter-list" id="chapterList"></div>
+        </section>
+
+        <section class="panel" id="quizPanel">
+          <div class="quiz-layout">
+            <div class="quiz-stage">
+              <div class="quiz-meta">
+                <span id="quizProgress">السؤال 0 من 0</span>
+                <span id="quizScore">0 نقطة</span>
+              </div>
+              <h2 id="quizQuestion">ولّد بنك الأسئلة أولًا لبدء المسابقة.</h2>
+              <div class="answers" id="answers"></div>
+              <div class="quiz-actions">
+                <button class="secondary-button" id="prevQuestion" type="button">السابق</button>
+                <button class="primary-button" id="nextQuestion" type="button">التالي</button>
+              </div>
+            </div>
+            <div class="quiz-settings">
+              <label for="quizChapter">الفصل</label>
+              <select id="quizChapter"></select>
+              <label for="quizSize">عدد الأسئلة</label>
+              <input id="quizSize" type="range" min="3" max="15" value="8" />
+              <output id="quizSizeOutput" for="quizSize">8</output>
+              <button class="primary-button" id="startQuiz" type="button">بدء المسابقة</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="bankPanel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">بنك الأسئلة</p>
+              <h2>أسئلة جاهزة للمراجعة أو التصدير</h2>
+            </div>
+            <div class="section-head-actions">
+              <select id="bankChapter" aria-label="اختيار الفصل"></select>
+              <button class="secondary-button" id="exportButton" type="button">تصدير JSON</button>
+            </div>
+          </div>
+          <div class="question-bank" id="questionBank"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
