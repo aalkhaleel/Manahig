@@ -4,203 +4,639 @@ import path from "node:path";
 const outDir = process.argv[2] || "generated-english";
 await fs.mkdir(outDir, { recursive: true });
 
+// Questions built from actual OCR text of SuperGoal 3 (Semester 2, Units 7-12)
 const units = [
-  {
-    id: "unit-01",
-    title: "Unit 1: Lifestyles",
-    pages: "2-11",
-    topics: ["daily routines", "free time activities", "habits", "adverbs of frequency"],
-    vocabulary: ["always", "usually", "often", "sometimes", "rarely", "never", "lifestyle", "routine", "hobby", "exercise"],
-    grammar: ["Simple present tense", "Adverbs of frequency", "Yes/No questions", "Wh-questions"],
-    lessons: [
-      { title: "Lesson 1: What's your routine?", content: "Students talk about daily routines using the simple present tense and adverbs of frequency." },
-      { title: "Lesson 2: Free Time", content: "Students describe hobbies and free time activities." },
-      { title: "Lesson 3: Healthy Lifestyles", content: "Students discuss healthy habits and exercise routines." },
-    ],
-  },
-  {
-    id: "unit-02",
-    title: "Unit 2: Life Stories",
-    pages: "12-21",
-    topics: ["past events", "biographies", "childhood memories", "simple past"],
-    vocabulary: ["was born", "grew up", "studied", "worked", "moved", "married", "graduated", "became", "lived", "died"],
-    grammar: ["Simple past tense", "Regular and irregular verbs", "Past time expressions"],
-    lessons: [
-      { title: "Lesson 1: Famous People", content: "Students read and talk about the life stories of famous people." },
-      { title: "Lesson 2: My Story", content: "Students talk about their own past experiences and childhood." },
-      { title: "Lesson 3: Historical Events", content: "Students discuss important past events." },
-    ],
-  },
-  {
-    id: "unit-03",
-    title: "Unit 3: When Are You Traveling?",
-    pages: "22-31",
-    topics: ["travel plans", "future tense", "transportation", "booking tickets"],
-    vocabulary: ["travel", "flight", "hotel", "reservation", "destination", "passport", "luggage", "depart", "arrive", "cancel"],
-    grammar: ["Future with 'going to'", "Future with 'will'", "Present continuous for future plans"],
-    lessons: [
-      { title: "Lesson 1: Travel Plans", content: "Students discuss future travel plans using 'going to' and 'will'." },
-      { title: "Lesson 2: At the Airport", content: "Students practice airport and travel vocabulary." },
-      { title: "Lesson 3: Making Reservations", content: "Students learn to book hotels and make travel reservations." },
-    ],
-  },
-  {
-    id: "unit-04",
-    title: "Unit 4: What Do I Need to Buy?",
-    pages: "38-47",
-    topics: ["shopping", "quantities", "food items", "countable and uncountable nouns"],
-    vocabulary: ["grocery", "supermarket", "quantity", "dozen", "loaf", "bottle", "can", "bag", "pound", "kilo"],
-    grammar: ["Countable and uncountable nouns", "Some / any / a lot of / much / many", "How much / How many"],
-    lessons: [
-      { title: "Lesson 1: At the Supermarket", content: "Students practice shopping vocabulary and quantities." },
-      { title: "Lesson 2: How Much / How Many", content: "Students use countable and uncountable nouns." },
-      { title: "Lesson 3: Making a Shopping List", content: "Students write and discuss shopping lists." },
-    ],
-  },
-  {
-    id: "unit-05",
-    title: "Unit 5: Since When?",
-    pages: "48-57",
-    topics: ["experiences", "present perfect", "for and since", "how long"],
-    vocabulary: ["already", "yet", "just", "ever", "never", "recently", "for", "since", "experience", "achievement"],
-    grammar: ["Present perfect tense", "For and since", "Already / yet / just / ever / never"],
-    lessons: [
-      { title: "Lesson 1: Have You Ever?", content: "Students talk about life experiences using the present perfect." },
-      { title: "Lesson 2: For and Since", content: "Students practice using for and since with the present perfect." },
-      { title: "Lesson 3: Achievements", content: "Students discuss personal achievements and experiences." },
-    ],
-  },
-  {
-    id: "unit-06",
-    title: "Unit 6: Do You Know Where It Is?",
-    pages: "58-67",
-    topics: ["giving directions", "locations", "embedded questions", "prepositions of place"],
-    vocabulary: ["turn left", "turn right", "straight ahead", "corner", "block", "intersection", "next to", "across from", "between", "behind"],
-    grammar: ["Embedded questions (indirect questions)", "Prepositions of place", "Imperatives for directions"],
-    lessons: [
-      { title: "Lesson 1: Asking for Directions", content: "Students practice asking for and giving directions." },
-      { title: "Lesson 2: Embedded Questions", content: "Students use indirect questions to ask politely." },
-      { title: "Lesson 3: Reading a Map", content: "Students describe locations using prepositions." },
-    ],
-  },
   {
     id: "unit-07",
     title: "Unit 7: It's a Good Deal, Isn't It?",
-    pages: "74-83",
-    topics: ["shopping", "tag questions", "prices", "confirming information"],
-    vocabulary: ["bargain", "deal", "price tag", "discount", "garage sale", "secondhand", "receipt", "exchange", "refund", "afford"],
-    grammar: ["Tag questions (affirmative and negative)", "Negative questions", "Expressing ability with 'be able to'"],
-    lessons: [
-      { title: "Lesson 1: Garage Sales", content: "Students talk about buying and selling items at garage sales." },
-      { title: "Lesson 2: Tag Questions", content: "Students practice forming and using tag questions." },
-      { title: "Lesson 3: Confirming Information", content: "Students use negative questions to confirm information." },
+    pages: "74-95",
+    body: `Grammar: Tag questions. Conversations about garage sales and prices.
+Reading: The story of triplets Bobby Shafran, Eddy Galland, and David Kellman who met at age 19.
+The "Giggle twins" Daphne Goodship and Barbara Herbert who met at age 39.
+Conversation: Ted meets Sean from Dublin, Ireland. Sean is an exchange student in Chicago.
+Tag questions: You're coming with us, aren't you? We haven't met before, have we?`,
+    sentences: [
+      "Tag questions are used to confirm information or check understanding.",
+      "Bobby Shafran started college and was confused with Eddy Galland who looked exactly like him.",
+      "The three boys — Bobby, Eddy, and David — discovered they were triplets at age 19.",
+      "Daphne Goodship and Barbara Herbert, the 'Giggle twins', met for the first time at age 39.",
+      "Ted and Sean use tag questions in their conversation about Ireland.",
+    ],
+    keywords: ["tag questions", "triplets", "exchange student", "garage sale", "price", "bargain"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "Bobby Shafran, Eddy Galland, and David Kellman discovered they were:",
+        answer: "Triplets",
+        options: ["Twins", "Triplets", "Cousins", "Brothers born one year apart"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Why were Daphne Goodship and Barbara Herbert called the 'Giggle twins'?",
+        answer: "Because they were talkative and laughed a lot",
+        options: [
+          "Because they were talkative and laughed a lot",
+          "Because they always wore the same clothes",
+          "Because they lived in the same town",
+          "Because they cooked the same meals",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "How old were the Giggle twins when they first met?",
+        answer: "39",
+        options: ["19", "29", "39", "49"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "What is Sean doing in Chicago?",
+        answer: "He is an exchange student",
+        options: [
+          "He is an exchange student",
+          "He is a tourist",
+          "He is working at a company",
+          "He is visiting family",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which tag question is correct for: 'Vesuvius destroyed Pompeii'?",
+        answer: "Vesuvius destroyed Pompeii, didn't it?",
+        options: [
+          "Vesuvius destroyed Pompeii, didn't it?",
+          "Vesuvius destroyed Pompeii, wasn't it?",
+          "Vesuvius destroyed Pompeii, did it?",
+          "Vesuvius destroyed Pompeii, isn't it?",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Who invented the printing press according to the book?",
+        answer: "Gutenberg",
+        options: ["Da Vinci", "Gutenberg", "Einstein", "Newton"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Bobby Shafran and Eddy Galland grew up in the same family.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "The Giggle twins had similar personalities and both laughed a lot.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Tag questions use a rising intonation to confirm information.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Sean already knew his way around Chicago campus when Ted offered to help.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "What is a tag question? Give an example.",
+        answer: "A tag question is a short question added at the end of a statement to confirm information or ask for agreement. Example: 'You're coming with us, aren't you?' or 'We haven't met before, have we?'",
+        options: ["A tag question is a short question added at the end of a statement to confirm information or ask for agreement. Example: 'You're coming with us, aren't you?' or 'We haven't met before, have we?'"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "What rule do scientists study when they look at twins raised apart?",
+        answer: "Scientists study the classic question: 'What's more important—heredity or environment?' Twin studies like the Giggle twins suggest heredity plays an important role, as twins raised apart share similar personalities and habits.",
+        options: ["Scientists study the classic question: 'What's more important—heredity or environment?' Twin studies like the Giggle twins suggest heredity plays an important role, as twins raised apart share similar personalities and habits."],
+      },
     ],
   },
   {
     id: "unit-08",
     title: "Unit 8: Drive Slowly!",
-    pages: "84-93",
-    topics: ["cars", "driving", "traffic rules", "modals of obligation", "adverbs of manner"],
-    vocabulary: ["speed limit", "traffic sign", "seatbelt", "license", "fine", "pedestrian", "intersection", "overtake", "brake", "horn"],
-    grammar: ["Modal auxiliaries: must / mustn't / should / shouldn't", "Adverbs of manner", "Requests and commands with can/could/will/would"],
-    lessons: [
-      { title: "Lesson 1: Traffic Rules", content: "Students discuss traffic signs and road rules using modal verbs." },
-      { title: "Lesson 2: Adverbs of Manner", content: "Students describe how people do things using adverbs." },
-      { title: "Lesson 3: Requests and Commands", content: "Students practice making polite requests using modals." },
+    pages: "96-115",
+    body: `Grammar: Modal auxiliaries (must/mustn't, should/shouldn't, have to). Adverbs of manner.
+Topics: Traffic rules, road safety, aggressive drivers, driving vocabulary.
+Reading: History of driving on the left vs right side of the road.
+Key rules: Drivers should put on their seatbelts. Drivers shouldn't drive too fast.
+Aggressive drivers: Drive dangerously and recklessly.`,
+    sentences: [
+      "Modal verbs must/mustn't express strong obligation or prohibition.",
+      "Should/shouldn't express advice or recommendation about driving.",
+      "Aggressive drivers drive dangerously and recklessly.",
+      "Adverbs of manner describe how an action is done (e.g., slowly, carefully, recklessly).",
+    ],
+    keywords: ["must", "mustn't", "should", "seatbelt", "speed limit", "traffic", "aggressive", "recklessly"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which sentence gives a strong rule or obligation?",
+        answer: "Drivers must wear their seatbelts.",
+        options: [
+          "Drivers must wear their seatbelts.",
+          "Drivers should wear their seatbelts.",
+          "Drivers might wear their seatbelts.",
+          "Drivers can wear their seatbelts.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "According to the book, what do aggressive drivers do?",
+        answer: "Drive dangerously and recklessly",
+        options: [
+          "Drive dangerously and recklessly",
+          "Drive carefully and slowly",
+          "Always follow traffic rules",
+          "Stop at every traffic light",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which modal verb is used to give advice (not a strong rule)?",
+        answer: "should",
+        options: ["must", "should", "have to", "mustn't"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which is an adverb of manner that describes how aggressive drivers drive?",
+        answer: "recklessly",
+        options: ["recklessly", "reckless", "recklessness", "reckle"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "What does 'mustn't' express?",
+        answer: "A strong prohibition (something you are not allowed to do)",
+        options: [
+          "A strong prohibition (something you are not allowed to do)",
+          "A recommendation",
+          "A possibility",
+          "A polite request",
+        ],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Drivers should drive too fast on the highway.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "'Must' is stronger than 'should' when expressing obligation.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Adverbs of manner describe how an action is performed.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "What is the difference between 'must' and 'should'?",
+        answer: "'Must' expresses a strong obligation or rule that you are required to follow (e.g., Drivers must wear seatbelts). 'Should' gives advice or a recommendation but is not as strong (e.g., Drivers should drive slowly in school zones).",
+        options: ["'Must' expresses a strong obligation or rule that you are required to follow (e.g., Drivers must wear seatbelts). 'Should' gives advice or a recommendation but is not as strong (e.g., Drivers should drive slowly in school zones)."],
+      },
     ],
   },
   {
     id: "unit-09",
     title: "Unit 9: All Kinds of People",
-    pages: "94-103",
-    topics: ["personality", "past events interrupted", "relative pronouns", "past progressive"],
-    vocabulary: ["personality", "character", "ambitious", "generous", "stubborn", "patient", "honest", "reliable", "cheerful", "shy"],
-    grammar: ["Past progressive with when and while", "Relative pronouns: who, that, which", "Can/may/could for possibility"],
-    lessons: [
-      { title: "Lesson 1: Describing Personality", content: "Students describe people's personalities and character traits." },
-      { title: "Lesson 2: Past Progressive", content: "Students talk about past events that were interrupted." },
-      { title: "Lesson 3: Relative Clauses", content: "Students use relative pronouns to give more information." },
+    pages: "116-131",
+    body: `Grammar: Past progressive with when and while. Relative clauses with who, that, which.
+Topics: Describing personality traits and character.
+Key personality words: ambitious, generous, stubborn, patient, honest, reliable, cheerful, shy.
+Past progressive: what were you doing when something happened?
+Relative clauses: He is the person who helped me. That is the book which I read.`,
+    sentences: [
+      "The past progressive describes an action that was in progress at a specific time in the past.",
+      "When and while connect a past progressive action with a simple past interruption.",
+      "Relative clauses with who refer to people; which refers to things.",
+    ],
+    keywords: ["past progressive", "when", "while", "who", "which", "personality", "character", "ambitious"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which sentence correctly uses the past progressive?",
+        answer: "I was studying when the phone rang.",
+        options: [
+          "I was studying when the phone rang.",
+          "I studied when the phone was ringing.",
+          "I study when the phone rang.",
+          "I am studying when the phone rang.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which relative pronoun do you use for people?",
+        answer: "who",
+        options: ["who", "which", "that only", "where"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which word best describes a person who always keeps promises and can be counted on?",
+        answer: "reliable",
+        options: ["reliable", "stubborn", "shy", "ambitious"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Complete the sentence: She was reading a book _____ the electricity went out.",
+        answer: "when",
+        options: ["when", "while", "because", "although"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which personality trait describes someone who wants to succeed and works hard?",
+        answer: "ambitious",
+        options: ["ambitious", "generous", "patient", "cheerful"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "The past progressive is formed with: was/were + verb-ing.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "We use 'which' to give more information about a person.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "'While' and 'when' can both be used to connect two past events.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "How do you form the past progressive tense? Give an example.",
+        answer: "The past progressive is formed with was/were + verb-ing. Example: 'They were playing football when it started to rain.' It describes an action in progress at a moment in the past.",
+        options: ["The past progressive is formed with was/were + verb-ing. Example: 'They were playing football when it started to rain.' It describes an action in progress at a moment in the past."],
+      },
     ],
   },
   {
     id: "unit-10",
     title: "Unit 10: Who Used My Toothpaste?",
-    pages: "110-119",
-    topics: ["chores", "complaints", "past perfect", "household items"],
-    vocabulary: ["toothpaste", "chore", "messy", "tidy", "dishwasher", "laundry", "vacuum", "mop", "complaint", "responsibility"],
-    grammar: ["Past perfect tense", "Already / yet with past perfect", "Reported speech for complaints"],
-    lessons: [
-      { title: "Lesson 1: Household Chores", content: "Students discuss household responsibilities and chores." },
-      { title: "Lesson 2: Making Complaints", content: "Students practice making and responding to complaints." },
-      { title: "Lesson 3: Past Perfect", content: "Students use the past perfect to talk about completed past actions." },
+    pages: "132-151",
+    body: `Grammar: Present perfect with already, yet, just. Verb + Gerund. Phrasal verbs (two-word verbs).
+Conversation: Sarah complains to Amal about her nephew Kareem who stayed for three months.
+Kareem never put things back, never cleaned up after himself, and ate a lot.
+Verbs followed by gerunds: avoid, enjoy, give up, imagine, mind, stop, can't stand, finish, hate, keep, miss, suggest.
+Phrasal verbs: Turn down the TV. Turn it down. Put away your clothes. Put them away.
+Key expressions: "At long last!" = Finally. "That's a bit too much." = This has gone too far.`,
+    sentences: [
+      "The present perfect with 'already' means something happened sooner than expected.",
+      "The present perfect with 'yet' is used in questions and negative sentences about uncompleted actions.",
+      "Verbs like enjoy, hate, avoid, miss are followed by gerunds (verb+ing).",
+      "In phrasal verbs, object pronouns always come between the verb and the particle.",
+      "Sarah said her nephew Kareem took over their house during his three-month stay.",
+    ],
+    keywords: ["already", "yet", "just", "gerund", "phrasal verb", "present perfect", "Kareem", "toothpaste"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "Sarah's nephew Kareem stayed at her house for:",
+        answer: "Almost three months",
+        options: ["One week", "One month", "Almost three months", "Six months"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "What does 'At long last!' mean in the conversation?",
+        answer: "Finally!",
+        options: ["Finally!", "At the end of a long road", "After a long time of waiting patiently", "Unfortunately"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which sentence uses the present perfect with 'already' correctly?",
+        answer: "Yes, I've already done the dishes.",
+        options: [
+          "Yes, I've already done the dishes.",
+          "Yes, I already do the dishes.",
+          "Yes, I did already the dishes.",
+          "Yes, already I've done the dishes.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which sentence is correct with a phrasal verb and a pronoun?",
+        answer: "Turn it down.",
+        options: [
+          "Turn it down.",
+          "Turn down it.",
+          "It turn down.",
+          "Down turn it.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which verb CANNOT be followed by a gerund (verb+ing)?",
+        answer: "want",
+        options: ["enjoy", "avoid", "want", "can't stand"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "What does 'That's a bit too much' mean?",
+        answer: "This has gone too far",
+        options: [
+          "This has gone too far",
+          "That is very expensive",
+          "That is a large quantity",
+          "This is quite acceptable",
+        ],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Kareem always cleaned up after himself during his stay at Sarah's house.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "In phrasal verbs, object pronouns always come between the verb and the particle.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "'Yet' is used in affirmative sentences with the present perfect.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "Explain the difference between 'already', 'yet', and 'just' with the present perfect.",
+        answer: "'Already' = something happened sooner than expected (affirmative). Example: I've already done the dishes. 'Yet' = used in questions/negatives for uncompleted actions. Example: Have you done the dishes yet? No, I haven't done them yet. 'Just' = something happened very recently. Example: I've just washed them.",
+        options: ["'Already' = something happened sooner than expected (affirmative). Example: I've already done the dishes. 'Yet' = used in questions/negatives for uncompleted actions. Example: Have you done the dishes yet? No, I haven't done them yet. 'Just' = something happened very recently. Example: I've just washed them."],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "What are phrasal verbs? Give an example with a pronoun.",
+        answer: "Phrasal verbs (two-word verbs) consist of a verb + particle. Object pronouns ALWAYS come between the verb and the particle. Example: 'Turn down the TV' → 'Turn the TV down' → 'Turn it down.' (NOT 'Turn down it.')",
+        options: ["Phrasal verbs (two-word verbs) consist of a verb + particle. Object pronouns ALWAYS come between the verb and the particle. Example: 'Turn down the TV' → 'Turn the TV down' → 'Turn it down.' (NOT 'Turn down it.')"],
+      },
     ],
   },
   {
     id: "unit-11",
     title: "Unit 11: Making Choices",
-    pages: "120-129",
-    topics: ["decisions", "conditionals", "advice", "hypothetical situations"],
-    vocabulary: ["decision", "choice", "option", "consequence", "prefer", "consider", "weigh", "pros", "cons", "alternative"],
-    grammar: ["Real conditionals (if + present, will)", "Unreal conditionals (if + past, would)", "Should for advice"],
-    lessons: [
-      { title: "Lesson 1: Making Decisions", content: "Students talk about making important choices in life." },
-      { title: "Lesson 2: Real Conditionals", content: "Students use real conditionals to talk about possible results." },
-      { title: "Lesson 3: Unreal Conditionals", content: "Students use unreal conditionals for hypothetical situations." },
+    pages: "152-167",
+    body: `Grammar: Conditional sentences (present/future facts). May/Might for possibility. I'd rather for preferences.
+Conversation: Faisal must choose between three events on the weekend:
+  1. Fahd's graduation dinner (Fahd is a close friend)
+  2. Khalid's beach house weekend
+  3. The Saudi Hawks airshow with Tariq
+Faisal prefers the airshow, saying "If I don't go this weekend, I may not get another chance."
+Reading: The story of Albrecht Dürer and his brother Albert — two talented German brothers who made a pact.
+Albert worked in the mines to pay for Albrecht's art studies. When Albrecht returned famous, Albert's hands were too damaged from mine work to become an artist.
+Albrecht drew his brother's hands as a masterpiece called "Hands" (Praying Hands).`,
+    sentences: [
+      "Conditional sentences use 'if' to describe causes and results.",
+      "For present facts: use simple present in both clauses.",
+      "For future facts: use simple present in the if-clause and will/going to in the result clause.",
+      "May/might in the result clause suggests something is possible but not certain.",
+      "I'd rather = I would rather — used to express a preference.",
+      "Faisal chose the airshow, saying if he doesn't go, he may not get another chance.",
+      "Albert and Albrecht Dürer made a pact so one could study art while the other worked in mines.",
+    ],
+    keywords: ["conditional", "if", "may", "might", "I'd rather", "Faisal", "Albrecht", "Dürer", "pact", "choice"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "What were Faisal's three choices for the weekend?",
+        answer: "Fahd's graduation dinner, Khalid's beach house, Saudi Hawks airshow",
+        options: [
+          "Fahd's graduation dinner, Khalid's beach house, Saudi Hawks airshow",
+          "A wedding, a birthday party, a football match",
+          "A trip to Riyadh, a beach trip, a graduation",
+          "A movie, a dinner, an airshow",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Why did Faisal prefer the Saudi Hawks airshow?",
+        answer: "If he doesn't go this weekend, he may not get another chance to see it",
+        options: [
+          "If he doesn't go this weekend, he may not get another chance to see it",
+          "Because Tariq is his best friend",
+          "Because the airshow is free",
+          "Because Fahd told him to go",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "In the story, what did Albrecht Dürer draw to show his gratitude to Albert?",
+        answer: "His brother's abused hands (known as 'Hands' or 'Praying Hands')",
+        options: [
+          "His brother's abused hands (known as 'Hands' or 'Praying Hands')",
+          "A portrait of his brother's face",
+          "A painting of the mine where Albert worked",
+          "A drawing of their family home",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which conditional sentence describes a present fact?",
+        answer: "If you put water in the freezer, it becomes ice.",
+        options: [
+          "If you put water in the freezer, it becomes ice.",
+          "If Saeed gets the job, he'll be very happy.",
+          "If Noura doesn't do the homework, she may fail.",
+          "If Imad doesn't go to college, he might not get a good job.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "What does 'up in the air' mean in Faisal's conversation?",
+        answer: "Undecided",
+        options: ["Undecided", "Exciting", "High in the sky", "Busy"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Why could Albert not attend the art academy after Albrecht returned?",
+        answer: "Four years in the mines had smashed the bones in his fingers and he had arthritis",
+        options: [
+          "Four years in the mines had smashed the bones in his fingers and he had arthritis",
+          "He lost interest in art",
+          "The academy was too expensive",
+          "He had moved to another city",
+        ],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "For future conditional facts, use simple present in both clauses.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Albert Dürer worked in the mines to support his brother Albrecht's art studies.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "'I'd rather' is used to talk about a preference.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "Explain conditional sentences: what is the difference between present and future facts?",
+        answer: "Present facts: use simple present in BOTH clauses. Example: 'If you cook an egg in the microwave, it explodes.' Future facts: use simple present in the IF-clause and will/going to in the result clause. Example: 'If Saeed gets the job, he'll be very happy.' You can also use may/might to show the result is possible but not certain.",
+        options: ["Present facts: use simple present in BOTH clauses. Example: 'If you cook an egg in the microwave, it explodes.' Future facts: use simple present in the IF-clause and will/going to in the result clause. Example: 'If Saeed gets the job, he'll be very happy.' You can also use may/might to show the result is possible but not certain."],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "Summarize the agreement (pact) made between Albrecht and Albert Dürer.",
+        answer: "The two brothers made a pact: Albert would go down in the mines and support Albrecht financially while Albrecht studied art at the academy in Nuremberg for four years. After Albrecht completed his studies and became successful, it would be Albert's turn to study art. However, when Albrecht returned, Albert's hands were too damaged from the mine work, so he was never able to pursue his dream.",
+        options: ["The two brothers made a pact: Albert would go down in the mines and support Albrecht financially while Albrecht studied art at the academy in Nuremberg for four years. After Albrecht completed his studies and became successful, it would be Albert's turn to study art. However, when Albrecht returned, Albert's hands were too damaged from the mine work, so he was never able to pursue his dream."],
+      },
     ],
   },
   {
     id: "unit-12",
     title: "Unit 12: Culture Shock",
-    pages: "130-139",
-    topics: ["cultures", "customs", "comparisons", "cultural differences"],
-    vocabulary: ["culture", "custom", "tradition", "shock", "adapt", "homesick", "diverse", "respect", "attitude", "value"],
-    grammar: ["Comparatives and superlatives review", "Passive voice introduction", "Connectors: although, however, despite"],
-    lessons: [
-      { title: "Lesson 1: Cultural Differences", content: "Students discuss customs and traditions around the world." },
-      { title: "Lesson 2: Adapting to New Cultures", content: "Students talk about experiencing culture shock." },
-      { title: "Lesson 3: Comparing Cultures", content: "Students compare and contrast different cultural practices." },
+    pages: "168-183",
+    body: `Grammar: Verb + Infinitive (expect, manage, refuse, remember, try). Gerunds as subjects. "It's + adjective + infinitive" for advice.
+Topics: Cultural customs, cultural differences, traveling abroad.
+Customs from the listening about traveling to the United States:
+  1. Gestures are NOT very similar all over the world.
+  2. Americans introduce themselves with first names (not last names).
+  3. Americans do NOT like to stand really close when talking.
+  4. People are expected to arrive on time in the US.
+  5. It's polite for house guests to give a small gift.
+Key grammar: "It's polite to...", "It's not advisable to...", "It's common to...", "It's rude to..."
+Gerunds as subjects: "Traveling is a good way to learn about other cultures."`,
+    sentences: [
+      "Verbs like expect, manage, refuse, remember, try are followed by infinitives (to + verb).",
+      "Gerunds can be used as the subject of a sentence.",
+      "In the US, it is polite to arrive on time and give a small gift when visiting someone's home.",
+      "Gestures are NOT similar all over the world.",
+      "Americans usually introduce themselves using their first names.",
+    ],
+    keywords: ["infinitive", "gerund", "culture", "customs", "polite", "rude", "advisable", "tipping"],
+    questions: [
+      {
+        type: "اختيار من متعدد",
+        prompt: "According to the listening, how do Americans usually introduce themselves?",
+        answer: "With their first names",
+        options: [
+          "With their first names",
+          "With their last names",
+          "With their title and last name",
+          "They don't introduce themselves",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which sentence uses a gerund as a subject correctly?",
+        answer: "Traveling is a good way to learn about other cultures.",
+        options: [
+          "Traveling is a good way to learn about other cultures.",
+          "Travel is a good way to learn about other cultures.",
+          "To travel is the good way to learn about other cultures.",
+          "Traveled is a good way to learn.",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which verb is followed by an infinitive (not a gerund)?",
+        answer: "refuse",
+        options: ["refuse", "enjoy", "can't stand", "avoid"],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "Which expression from Unit 12 means 'something you are advised not to do'?",
+        answer: "It's not advisable to...",
+        options: [
+          "It's not advisable to...",
+          "It's polite to...",
+          "It's common to...",
+          "Make sure to...",
+        ],
+      },
+      {
+        type: "اختيار من متعدد",
+        prompt: "According to the listening about the US, which statement is TRUE?",
+        answer: "People are expected to arrive on time at all events.",
+        options: [
+          "People are expected to arrive on time at all events.",
+          "Gestures are very similar all over the world.",
+          "Americans like to stand really close when talking.",
+          "Tipping is not common in the US.",
+        ],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "Gestures have the same meaning in all countries around the world.",
+        answer: "خطأ",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "In the United States, it is polite for house guests to bring a small gift.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "صح وخطأ",
+        prompt: "The verb 'remember' can be followed by either a gerund or an infinitive in different meanings.",
+        answer: "صح",
+        options: ["صح", "خطأ"],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "Name five verbs that must be followed by an infinitive (to + verb) in Unit 12.",
+        answer: "The verbs followed by infinitives in Unit 12 are: expect (We didn't expect to arrive so late), manage (They managed to get an earlier flight), refuse (The airline refused to pay), remember (I didn't remember to bring my toothbrush), try (She tried to sleep on the plane).",
+        options: ["The verbs followed by infinitives in Unit 12 are: expect (We didn't expect to arrive so late), manage (They managed to get an earlier flight), refuse (The airline refused to pay), remember (I didn't remember to bring my toothbrush), try (She tried to sleep on the plane)."],
+      },
+      {
+        type: "بطاقة مراجعة",
+        prompt: "What is culture shock? Give an example of a cultural difference from the unit.",
+        answer: "Culture shock is the feeling of confusion or difficulty when experiencing a new culture. Example from the unit: In the US, people are expected to arrive on time (punctuality is important), Americans introduce themselves with first names, and it is polite to give a small gift when visiting someone's home.",
+        options: ["Culture shock is the feeling of confusion or difficulty when experiencing a new culture. Example from the unit: In the US, people are expected to arrive on time (punctuality is important), Americans introduce themselves with first names, and it is polite to give a small gift when visiting someone's home."],
+      },
     ],
   },
 ];
 
 const allQuestions = [];
 const chapterRecords = [];
-const chapterPayloads = [];
 
 for (const unit of units) {
-  const questions = buildUnitQuestions(unit);
   const chapterRecord = {
     id: unit.id,
     title: unit.title,
-    body: [
-      `Pages: ${unit.pages}`,
-      `Topics: ${unit.topics.join(", ")}`,
-      `Vocabulary: ${unit.vocabulary.join(", ")}`,
-      `Grammar: ${unit.grammar.join(", ")}`,
-      ...unit.lessons.map((l) => `${l.title}: ${l.content}`),
-    ].join("\n"),
-    sentences: unit.lessons.map((l) => l.content),
-    keywords: [...unit.vocabulary.slice(0, 8), ...unit.topics.slice(0, 4)],
+    body: unit.body,
+    sentences: unit.sentences,
+    keywords: unit.keywords,
   };
 
-  const payload = {
-    id: unit.id,
-    title: unit.title,
-    pages: unit.pages,
-    questions,
-  };
+  const questions = unit.questions.map((q, i) => ({
+    id: `${unit.id}-q${i + 1}`,
+    chapterId: unit.id,
+    chapterTitle: unit.title,
+    type: q.type,
+    prompt: q.prompt,
+    answer: q.answer,
+    options: q.options,
+    source: "SuperGoal 3 OCR",
+  }));
 
   chapterRecords.push(chapterRecord);
-  chapterPayloads.push(payload);
   allQuestions.push(...questions);
 
   const jsonFile = path.join(outDir, `${unit.id}-questions.json`);
-  await fs.writeFile(jsonFile, JSON.stringify(payload, null, 2), "utf8");
+  await fs.writeFile(jsonFile, JSON.stringify({ id: unit.id, title: unit.title, questions }, null, 2), "utf8");
   console.log(`${unit.title}: ${questions.length} questions`);
 }
 
 const bank = {
-  title: "SuperGoal 3 - English Question Bank",
+  title: "SuperGoal 3 — كتاب الإنجليزي ثالث متوسط ف2",
   source: "كتاب-انجليزي-ثالث-متوسط-ف2-كتبي.pdf",
   chapters: chapterRecords,
   questions: allQuestions,
@@ -210,75 +646,3 @@ const bankFile = path.join(outDir, "english-question-bank.json");
 await fs.writeFile(bankFile, JSON.stringify(bank, null, 2), "utf8");
 console.log(`\nTotal: ${allQuestions.length} questions in ${units.length} units`);
 console.log(`Saved to: ${bankFile}`);
-
-function buildUnitQuestions(unit) {
-  const questions = [];
-  const vocab = unit.vocabulary;
-  const grammar = unit.grammar;
-
-  // Vocabulary MCQ questions
-  for (let i = 0; i < Math.min(vocab.length, 6); i++) {
-    const word = vocab[i];
-    const distractors = vocab.filter((v) => v !== word).slice(0, 3);
-    questions.push({
-      id: `${unit.id}-vocab-${i + 1}`,
-      chapterId: unit.id,
-      chapterTitle: unit.title,
-      type: "اختيار من متعدد",
-      prompt: `Which word is related to the topic "${unit.topics[0]}"? → "${word}" means:`,
-      answer: word,
-      options: shuffle([word, ...distractors]),
-      source: `Vocabulary: ${unit.topics[0]}`,
-    });
-  }
-
-  // Grammar MCQ questions
-  for (let i = 0; i < grammar.length; i++) {
-    const rule = grammar[i];
-    const others = grammar.filter((g) => g !== rule);
-    questions.push({
-      id: `${unit.id}-grammar-${i + 1}`,
-      chapterId: unit.id,
-      chapterTitle: unit.title,
-      type: "اختيار من متعدد",
-      prompt: `Which grammar point is studied in "${unit.title}"?`,
-      answer: rule,
-      options: shuffle([rule, ...others.slice(0, 3)]),
-      source: `Grammar focus: ${unit.title}`,
-    });
-  }
-
-  // True/False based on lessons
-  for (const lesson of unit.lessons) {
-    questions.push({
-      id: `${unit.id}-tf-${lesson.title.slice(0, 10).replace(/\W+/g, "-")}`,
-      chapterId: unit.id,
-      chapterTitle: unit.title,
-      type: "صح وخطأ",
-      prompt: lesson.content,
-      answer: "صح",
-      options: ["صح", "خطأ"],
-      source: lesson.title,
-    });
-  }
-
-  // Flashcard for each topic
-  for (const topic of unit.topics.slice(0, 3)) {
-    questions.push({
-      id: `${unit.id}-card-${topic.replace(/\W+/g, "-")}`,
-      chapterId: unit.id,
-      chapterTitle: unit.title,
-      type: "بطاقة مراجعة",
-      prompt: `What grammar or vocabulary is covered under the topic: "${topic}"?`,
-      answer: `In Unit "${unit.title}", the topic "${topic}" covers: ${unit.grammar.join(", ")}. Key vocabulary: ${unit.vocabulary.slice(0, 5).join(", ")}.`,
-      options: [`In Unit "${unit.title}", the topic "${topic}" covers: ${unit.grammar.join(", ")}. Key vocabulary: ${unit.vocabulary.slice(0, 5).join(", ")}.`],
-      source: `Unit overview: ${unit.title}`,
-    });
-  }
-
-  return questions;
-}
-
-function shuffle(arr) {
-  return [...arr].sort(() => Math.random() - 0.5);
-}

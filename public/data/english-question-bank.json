@@ -1,2798 +1,1001 @@
 {
-  "title": "SuperGoal 3 - English Question Bank",
+  "title": "SuperGoal 3 — كتاب الإنجليزي ثالث متوسط ف2",
   "source": "كتاب-انجليزي-ثالث-متوسط-ف2-كتبي.pdf",
   "chapters": [
     {
-      "id": "unit-01",
-      "title": "Unit 1: Lifestyles",
-      "body": "Pages: 2-11\nTopics: daily routines, free time activities, habits, adverbs of frequency\nVocabulary: always, usually, often, sometimes, rarely, never, lifestyle, routine, hobby, exercise\nGrammar: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions\nLesson 1: What's your routine?: Students talk about daily routines using the simple present tense and adverbs of frequency.\nLesson 2: Free Time: Students describe hobbies and free time activities.\nLesson 3: Healthy Lifestyles: Students discuss healthy habits and exercise routines.",
-      "sentences": [
-        "Students talk about daily routines using the simple present tense and adverbs of frequency.",
-        "Students describe hobbies and free time activities.",
-        "Students discuss healthy habits and exercise routines."
-      ],
-      "keywords": [
-        "always",
-        "usually",
-        "often",
-        "sometimes",
-        "rarely",
-        "never",
-        "lifestyle",
-        "routine",
-        "daily routines",
-        "free time activities",
-        "habits",
-        "adverbs of frequency"
-      ]
-    },
-    {
-      "id": "unit-02",
-      "title": "Unit 2: Life Stories",
-      "body": "Pages: 12-21\nTopics: past events, biographies, childhood memories, simple past\nVocabulary: was born, grew up, studied, worked, moved, married, graduated, became, lived, died\nGrammar: Simple past tense, Regular and irregular verbs, Past time expressions\nLesson 1: Famous People: Students read and talk about the life stories of famous people.\nLesson 2: My Story: Students talk about their own past experiences and childhood.\nLesson 3: Historical Events: Students discuss important past events.",
-      "sentences": [
-        "Students read and talk about the life stories of famous people.",
-        "Students talk about their own past experiences and childhood.",
-        "Students discuss important past events."
-      ],
-      "keywords": [
-        "was born",
-        "grew up",
-        "studied",
-        "worked",
-        "moved",
-        "married",
-        "graduated",
-        "became",
-        "past events",
-        "biographies",
-        "childhood memories",
-        "simple past"
-      ]
-    },
-    {
-      "id": "unit-03",
-      "title": "Unit 3: When Are You Traveling?",
-      "body": "Pages: 22-31\nTopics: travel plans, future tense, transportation, booking tickets\nVocabulary: travel, flight, hotel, reservation, destination, passport, luggage, depart, arrive, cancel\nGrammar: Future with 'going to', Future with 'will', Present continuous for future plans\nLesson 1: Travel Plans: Students discuss future travel plans using 'going to' and 'will'.\nLesson 2: At the Airport: Students practice airport and travel vocabulary.\nLesson 3: Making Reservations: Students learn to book hotels and make travel reservations.",
-      "sentences": [
-        "Students discuss future travel plans using 'going to' and 'will'.",
-        "Students practice airport and travel vocabulary.",
-        "Students learn to book hotels and make travel reservations."
-      ],
-      "keywords": [
-        "travel",
-        "flight",
-        "hotel",
-        "reservation",
-        "destination",
-        "passport",
-        "luggage",
-        "depart",
-        "travel plans",
-        "future tense",
-        "transportation",
-        "booking tickets"
-      ]
-    },
-    {
-      "id": "unit-04",
-      "title": "Unit 4: What Do I Need to Buy?",
-      "body": "Pages: 38-47\nTopics: shopping, quantities, food items, countable and uncountable nouns\nVocabulary: grocery, supermarket, quantity, dozen, loaf, bottle, can, bag, pound, kilo\nGrammar: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many\nLesson 1: At the Supermarket: Students practice shopping vocabulary and quantities.\nLesson 2: How Much / How Many: Students use countable and uncountable nouns.\nLesson 3: Making a Shopping List: Students write and discuss shopping lists.",
-      "sentences": [
-        "Students practice shopping vocabulary and quantities.",
-        "Students use countable and uncountable nouns.",
-        "Students write and discuss shopping lists."
-      ],
-      "keywords": [
-        "grocery",
-        "supermarket",
-        "quantity",
-        "dozen",
-        "loaf",
-        "bottle",
-        "can",
-        "bag",
-        "shopping",
-        "quantities",
-        "food items",
-        "countable and uncountable nouns"
-      ]
-    },
-    {
-      "id": "unit-05",
-      "title": "Unit 5: Since When?",
-      "body": "Pages: 48-57\nTopics: experiences, present perfect, for and since, how long\nVocabulary: already, yet, just, ever, never, recently, for, since, experience, achievement\nGrammar: Present perfect tense, For and since, Already / yet / just / ever / never\nLesson 1: Have You Ever?: Students talk about life experiences using the present perfect.\nLesson 2: For and Since: Students practice using for and since with the present perfect.\nLesson 3: Achievements: Students discuss personal achievements and experiences.",
-      "sentences": [
-        "Students talk about life experiences using the present perfect.",
-        "Students practice using for and since with the present perfect.",
-        "Students discuss personal achievements and experiences."
-      ],
-      "keywords": [
-        "already",
-        "yet",
-        "just",
-        "ever",
-        "never",
-        "recently",
-        "for",
-        "since",
-        "experiences",
-        "present perfect",
-        "for and since",
-        "how long"
-      ]
-    },
-    {
-      "id": "unit-06",
-      "title": "Unit 6: Do You Know Where It Is?",
-      "body": "Pages: 58-67\nTopics: giving directions, locations, embedded questions, prepositions of place\nVocabulary: turn left, turn right, straight ahead, corner, block, intersection, next to, across from, between, behind\nGrammar: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions\nLesson 1: Asking for Directions: Students practice asking for and giving directions.\nLesson 2: Embedded Questions: Students use indirect questions to ask politely.\nLesson 3: Reading a Map: Students describe locations using prepositions.",
-      "sentences": [
-        "Students practice asking for and giving directions.",
-        "Students use indirect questions to ask politely.",
-        "Students describe locations using prepositions."
-      ],
-      "keywords": [
-        "turn left",
-        "turn right",
-        "straight ahead",
-        "corner",
-        "block",
-        "intersection",
-        "next to",
-        "across from",
-        "giving directions",
-        "locations",
-        "embedded questions",
-        "prepositions of place"
-      ]
-    },
-    {
       "id": "unit-07",
       "title": "Unit 7: It's a Good Deal, Isn't It?",
-      "body": "Pages: 74-83\nTopics: shopping, tag questions, prices, confirming information\nVocabulary: bargain, deal, price tag, discount, garage sale, secondhand, receipt, exchange, refund, afford\nGrammar: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'\nLesson 1: Garage Sales: Students talk about buying and selling items at garage sales.\nLesson 2: Tag Questions: Students practice forming and using tag questions.\nLesson 3: Confirming Information: Students use negative questions to confirm information.",
+      "body": "Grammar: Tag questions. Conversations about garage sales and prices.\nReading: The story of triplets Bobby Shafran, Eddy Galland, and David Kellman who met at age 19.\nThe \"Giggle twins\" Daphne Goodship and Barbara Herbert who met at age 39.\nConversation: Ted meets Sean from Dublin, Ireland. Sean is an exchange student in Chicago.\nTag questions: You're coming with us, aren't you? We haven't met before, have we?",
       "sentences": [
-        "Students talk about buying and selling items at garage sales.",
-        "Students practice forming and using tag questions.",
-        "Students use negative questions to confirm information."
+        "Tag questions are used to confirm information or check understanding.",
+        "Bobby Shafran started college and was confused with Eddy Galland who looked exactly like him.",
+        "The three boys — Bobby, Eddy, and David — discovered they were triplets at age 19.",
+        "Daphne Goodship and Barbara Herbert, the 'Giggle twins', met for the first time at age 39.",
+        "Ted and Sean use tag questions in their conversation about Ireland."
       ],
       "keywords": [
-        "bargain",
-        "deal",
-        "price tag",
-        "discount",
-        "garage sale",
-        "secondhand",
-        "receipt",
-        "exchange",
-        "shopping",
         "tag questions",
-        "prices",
-        "confirming information"
+        "triplets",
+        "exchange student",
+        "garage sale",
+        "price",
+        "bargain"
       ]
     },
     {
       "id": "unit-08",
       "title": "Unit 8: Drive Slowly!",
-      "body": "Pages: 84-93\nTopics: cars, driving, traffic rules, modals of obligation, adverbs of manner\nVocabulary: speed limit, traffic sign, seatbelt, license, fine, pedestrian, intersection, overtake, brake, horn\nGrammar: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would\nLesson 1: Traffic Rules: Students discuss traffic signs and road rules using modal verbs.\nLesson 2: Adverbs of Manner: Students describe how people do things using adverbs.\nLesson 3: Requests and Commands: Students practice making polite requests using modals.",
+      "body": "Grammar: Modal auxiliaries (must/mustn't, should/shouldn't, have to). Adverbs of manner.\nTopics: Traffic rules, road safety, aggressive drivers, driving vocabulary.\nReading: History of driving on the left vs right side of the road.\nKey rules: Drivers should put on their seatbelts. Drivers shouldn't drive too fast.\nAggressive drivers: Drive dangerously and recklessly.",
       "sentences": [
-        "Students discuss traffic signs and road rules using modal verbs.",
-        "Students describe how people do things using adverbs.",
-        "Students practice making polite requests using modals."
+        "Modal verbs must/mustn't express strong obligation or prohibition.",
+        "Should/shouldn't express advice or recommendation about driving.",
+        "Aggressive drivers drive dangerously and recklessly.",
+        "Adverbs of manner describe how an action is done (e.g., slowly, carefully, recklessly)."
       ],
       "keywords": [
-        "speed limit",
-        "traffic sign",
+        "must",
+        "mustn't",
+        "should",
         "seatbelt",
-        "license",
-        "fine",
-        "pedestrian",
-        "intersection",
-        "overtake",
-        "cars",
-        "driving",
-        "traffic rules",
-        "modals of obligation"
+        "speed limit",
+        "traffic",
+        "aggressive",
+        "recklessly"
       ]
     },
     {
       "id": "unit-09",
       "title": "Unit 9: All Kinds of People",
-      "body": "Pages: 94-103\nTopics: personality, past events interrupted, relative pronouns, past progressive\nVocabulary: personality, character, ambitious, generous, stubborn, patient, honest, reliable, cheerful, shy\nGrammar: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility\nLesson 1: Describing Personality: Students describe people's personalities and character traits.\nLesson 2: Past Progressive: Students talk about past events that were interrupted.\nLesson 3: Relative Clauses: Students use relative pronouns to give more information.",
+      "body": "Grammar: Past progressive with when and while. Relative clauses with who, that, which.\nTopics: Describing personality traits and character.\nKey personality words: ambitious, generous, stubborn, patient, honest, reliable, cheerful, shy.\nPast progressive: what were you doing when something happened?\nRelative clauses: He is the person who helped me. That is the book which I read.",
       "sentences": [
-        "Students describe people's personalities and character traits.",
-        "Students talk about past events that were interrupted.",
-        "Students use relative pronouns to give more information."
+        "The past progressive describes an action that was in progress at a specific time in the past.",
+        "When and while connect a past progressive action with a simple past interruption.",
+        "Relative clauses with who refer to people; which refers to things."
       ],
       "keywords": [
+        "past progressive",
+        "when",
+        "while",
+        "who",
+        "which",
         "personality",
         "character",
-        "ambitious",
-        "generous",
-        "stubborn",
-        "patient",
-        "honest",
-        "reliable",
-        "personality",
-        "past events interrupted",
-        "relative pronouns",
-        "past progressive"
+        "ambitious"
       ]
     },
     {
       "id": "unit-10",
       "title": "Unit 10: Who Used My Toothpaste?",
-      "body": "Pages: 110-119\nTopics: chores, complaints, past perfect, household items\nVocabulary: toothpaste, chore, messy, tidy, dishwasher, laundry, vacuum, mop, complaint, responsibility\nGrammar: Past perfect tense, Already / yet with past perfect, Reported speech for complaints\nLesson 1: Household Chores: Students discuss household responsibilities and chores.\nLesson 2: Making Complaints: Students practice making and responding to complaints.\nLesson 3: Past Perfect: Students use the past perfect to talk about completed past actions.",
+      "body": "Grammar: Present perfect with already, yet, just. Verb + Gerund. Phrasal verbs (two-word verbs).\nConversation: Sarah complains to Amal about her nephew Kareem who stayed for three months.\nKareem never put things back, never cleaned up after himself, and ate a lot.\nVerbs followed by gerunds: avoid, enjoy, give up, imagine, mind, stop, can't stand, finish, hate, keep, miss, suggest.\nPhrasal verbs: Turn down the TV. Turn it down. Put away your clothes. Put them away.\nKey expressions: \"At long last!\" = Finally. \"That's a bit too much.\" = This has gone too far.",
       "sentences": [
-        "Students discuss household responsibilities and chores.",
-        "Students practice making and responding to complaints.",
-        "Students use the past perfect to talk about completed past actions."
+        "The present perfect with 'already' means something happened sooner than expected.",
+        "The present perfect with 'yet' is used in questions and negative sentences about uncompleted actions.",
+        "Verbs like enjoy, hate, avoid, miss are followed by gerunds (verb+ing).",
+        "In phrasal verbs, object pronouns always come between the verb and the particle.",
+        "Sarah said her nephew Kareem took over their house during his three-month stay."
       ],
       "keywords": [
-        "toothpaste",
-        "chore",
-        "messy",
-        "tidy",
-        "dishwasher",
-        "laundry",
-        "vacuum",
-        "mop",
-        "chores",
-        "complaints",
-        "past perfect",
-        "household items"
+        "already",
+        "yet",
+        "just",
+        "gerund",
+        "phrasal verb",
+        "present perfect",
+        "Kareem",
+        "toothpaste"
       ]
     },
     {
       "id": "unit-11",
       "title": "Unit 11: Making Choices",
-      "body": "Pages: 120-129\nTopics: decisions, conditionals, advice, hypothetical situations\nVocabulary: decision, choice, option, consequence, prefer, consider, weigh, pros, cons, alternative\nGrammar: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice\nLesson 1: Making Decisions: Students talk about making important choices in life.\nLesson 2: Real Conditionals: Students use real conditionals to talk about possible results.\nLesson 3: Unreal Conditionals: Students use unreal conditionals for hypothetical situations.",
+      "body": "Grammar: Conditional sentences (present/future facts). May/Might for possibility. I'd rather for preferences.\nConversation: Faisal must choose between three events on the weekend:\n  1. Fahd's graduation dinner (Fahd is a close friend)\n  2. Khalid's beach house weekend\n  3. The Saudi Hawks airshow with Tariq\nFaisal prefers the airshow, saying \"If I don't go this weekend, I may not get another chance.\"\nReading: The story of Albrecht Dürer and his brother Albert — two talented German brothers who made a pact.\nAlbert worked in the mines to pay for Albrecht's art studies. When Albrecht returned famous, Albert's hands were too damaged from mine work to become an artist.\nAlbrecht drew his brother's hands as a masterpiece called \"Hands\" (Praying Hands).",
       "sentences": [
-        "Students talk about making important choices in life.",
-        "Students use real conditionals to talk about possible results.",
-        "Students use unreal conditionals for hypothetical situations."
+        "Conditional sentences use 'if' to describe causes and results.",
+        "For present facts: use simple present in both clauses.",
+        "For future facts: use simple present in the if-clause and will/going to in the result clause.",
+        "May/might in the result clause suggests something is possible but not certain.",
+        "I'd rather = I would rather — used to express a preference.",
+        "Faisal chose the airshow, saying if he doesn't go, he may not get another chance.",
+        "Albert and Albrecht Dürer made a pact so one could study art while the other worked in mines."
       ],
       "keywords": [
-        "decision",
-        "choice",
-        "option",
-        "consequence",
-        "prefer",
-        "consider",
-        "weigh",
-        "pros",
-        "decisions",
-        "conditionals",
-        "advice",
-        "hypothetical situations"
+        "conditional",
+        "if",
+        "may",
+        "might",
+        "I'd rather",
+        "Faisal",
+        "Albrecht",
+        "Dürer",
+        "pact",
+        "choice"
       ]
     },
     {
       "id": "unit-12",
       "title": "Unit 12: Culture Shock",
-      "body": "Pages: 130-139\nTopics: cultures, customs, comparisons, cultural differences\nVocabulary: culture, custom, tradition, shock, adapt, homesick, diverse, respect, attitude, value\nGrammar: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite\nLesson 1: Cultural Differences: Students discuss customs and traditions around the world.\nLesson 2: Adapting to New Cultures: Students talk about experiencing culture shock.\nLesson 3: Comparing Cultures: Students compare and contrast different cultural practices.",
+      "body": "Grammar: Verb + Infinitive (expect, manage, refuse, remember, try). Gerunds as subjects. \"It's + adjective + infinitive\" for advice.\nTopics: Cultural customs, cultural differences, traveling abroad.\nCustoms from the listening about traveling to the United States:\n  1. Gestures are NOT very similar all over the world.\n  2. Americans introduce themselves with first names (not last names).\n  3. Americans do NOT like to stand really close when talking.\n  4. People are expected to arrive on time in the US.\n  5. It's polite for house guests to give a small gift.\nKey grammar: \"It's polite to...\", \"It's not advisable to...\", \"It's common to...\", \"It's rude to...\"\nGerunds as subjects: \"Traveling is a good way to learn about other cultures.\"",
       "sentences": [
-        "Students discuss customs and traditions around the world.",
-        "Students talk about experiencing culture shock.",
-        "Students compare and contrast different cultural practices."
+        "Verbs like expect, manage, refuse, remember, try are followed by infinitives (to + verb).",
+        "Gerunds can be used as the subject of a sentence.",
+        "In the US, it is polite to arrive on time and give a small gift when visiting someone's home.",
+        "Gestures are NOT similar all over the world.",
+        "Americans usually introduce themselves using their first names."
       ],
       "keywords": [
+        "infinitive",
+        "gerund",
         "culture",
-        "custom",
-        "tradition",
-        "shock",
-        "adapt",
-        "homesick",
-        "diverse",
-        "respect",
-        "cultures",
         "customs",
-        "comparisons",
-        "cultural differences"
+        "polite",
+        "rude",
+        "advisable",
+        "tipping"
       ]
     }
   ],
   "questions": [
     {
-      "id": "unit-01-vocab-1",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"always\" means:",
-      "answer": "always",
-      "options": [
-        "sometimes",
-        "often",
-        "usually",
-        "always"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-vocab-2",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"usually\" means:",
-      "answer": "usually",
-      "options": [
-        "often",
-        "always",
-        "usually",
-        "sometimes"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-vocab-3",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"often\" means:",
-      "answer": "often",
-      "options": [
-        "often",
-        "sometimes",
-        "always",
-        "usually"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-vocab-4",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"sometimes\" means:",
-      "answer": "sometimes",
-      "options": [
-        "often",
-        "always",
-        "sometimes",
-        "usually"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-vocab-5",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"rarely\" means:",
-      "answer": "rarely",
-      "options": [
-        "usually",
-        "rarely",
-        "always",
-        "often"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-vocab-6",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"daily routines\"? → \"never\" means:",
-      "answer": "never",
-      "options": [
-        "never",
-        "always",
-        "usually",
-        "often"
-      ],
-      "source": "Vocabulary: daily routines"
-    },
-    {
-      "id": "unit-01-grammar-1",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 1: Lifestyles\"?",
-      "answer": "Simple present tense",
-      "options": [
-        "Wh-questions",
-        "Simple present tense",
-        "Adverbs of frequency",
-        "Yes/No questions"
-      ],
-      "source": "Grammar focus: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-grammar-2",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 1: Lifestyles\"?",
-      "answer": "Adverbs of frequency",
-      "options": [
-        "Simple present tense",
-        "Wh-questions",
-        "Adverbs of frequency",
-        "Yes/No questions"
-      ],
-      "source": "Grammar focus: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-grammar-3",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 1: Lifestyles\"?",
-      "answer": "Yes/No questions",
-      "options": [
-        "Adverbs of frequency",
-        "Simple present tense",
-        "Wh-questions",
-        "Yes/No questions"
-      ],
-      "source": "Grammar focus: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-grammar-4",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 1: Lifestyles\"?",
-      "answer": "Wh-questions",
-      "options": [
-        "Adverbs of frequency",
-        "Simple present tense",
-        "Wh-questions",
-        "Yes/No questions"
-      ],
-      "source": "Grammar focus: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-tf-Lesson-1-",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "صح وخطأ",
-      "prompt": "Students talk about daily routines using the simple present tense and adverbs of frequency.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: What's your routine?"
-    },
-    {
-      "id": "unit-01-tf-Lesson-2-",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "صح وخطأ",
-      "prompt": "Students describe hobbies and free time activities.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: Free Time"
-    },
-    {
-      "id": "unit-01-tf-Lesson-3-",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "صح وخطأ",
-      "prompt": "Students discuss healthy habits and exercise routines.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Healthy Lifestyles"
-    },
-    {
-      "id": "unit-01-card-daily-routines",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"daily routines\"?",
-      "answer": "In Unit \"Unit 1: Lifestyles\", the topic \"daily routines\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely.",
-      "options": [
-        "In Unit \"Unit 1: Lifestyles\", the topic \"daily routines\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely."
-      ],
-      "source": "Unit overview: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-card-free-time-activities",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"free time activities\"?",
-      "answer": "In Unit \"Unit 1: Lifestyles\", the topic \"free time activities\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely.",
-      "options": [
-        "In Unit \"Unit 1: Lifestyles\", the topic \"free time activities\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely."
-      ],
-      "source": "Unit overview: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-01-card-habits",
-      "chapterId": "unit-01",
-      "chapterTitle": "Unit 1: Lifestyles",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"habits\"?",
-      "answer": "In Unit \"Unit 1: Lifestyles\", the topic \"habits\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely.",
-      "options": [
-        "In Unit \"Unit 1: Lifestyles\", the topic \"habits\" covers: Simple present tense, Adverbs of frequency, Yes/No questions, Wh-questions. Key vocabulary: always, usually, often, sometimes, rarely."
-      ],
-      "source": "Unit overview: Unit 1: Lifestyles"
-    },
-    {
-      "id": "unit-02-vocab-1",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"was born\" means:",
-      "answer": "was born",
-      "options": [
-        "was born",
-        "worked",
-        "grew up",
-        "studied"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-vocab-2",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"grew up\" means:",
-      "answer": "grew up",
-      "options": [
-        "grew up",
-        "was born",
-        "studied",
-        "worked"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-vocab-3",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"studied\" means:",
-      "answer": "studied",
-      "options": [
-        "studied",
-        "worked",
-        "was born",
-        "grew up"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-vocab-4",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"worked\" means:",
-      "answer": "worked",
-      "options": [
-        "worked",
-        "was born",
-        "grew up",
-        "studied"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-vocab-5",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"moved\" means:",
-      "answer": "moved",
-      "options": [
-        "studied",
-        "grew up",
-        "was born",
-        "moved"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-vocab-6",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"past events\"? → \"married\" means:",
-      "answer": "married",
-      "options": [
-        "grew up",
-        "was born",
-        "studied",
-        "married"
-      ],
-      "source": "Vocabulary: past events"
-    },
-    {
-      "id": "unit-02-grammar-1",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 2: Life Stories\"?",
-      "answer": "Simple past tense",
-      "options": [
-        "Regular and irregular verbs",
-        "Simple past tense",
-        "Past time expressions"
-      ],
-      "source": "Grammar focus: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-02-grammar-2",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 2: Life Stories\"?",
-      "answer": "Regular and irregular verbs",
-      "options": [
-        "Simple past tense",
-        "Past time expressions",
-        "Regular and irregular verbs"
-      ],
-      "source": "Grammar focus: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-02-grammar-3",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 2: Life Stories\"?",
-      "answer": "Past time expressions",
-      "options": [
-        "Past time expressions",
-        "Simple past tense",
-        "Regular and irregular verbs"
-      ],
-      "source": "Grammar focus: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-02-tf-Lesson-1-",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "صح وخطأ",
-      "prompt": "Students read and talk about the life stories of famous people.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: Famous People"
-    },
-    {
-      "id": "unit-02-tf-Lesson-2-",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "صح وخطأ",
-      "prompt": "Students talk about their own past experiences and childhood.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: My Story"
-    },
-    {
-      "id": "unit-02-tf-Lesson-3-",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "صح وخطأ",
-      "prompt": "Students discuss important past events.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Historical Events"
-    },
-    {
-      "id": "unit-02-card-past-events",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"past events\"?",
-      "answer": "In Unit \"Unit 2: Life Stories\", the topic \"past events\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved.",
-      "options": [
-        "In Unit \"Unit 2: Life Stories\", the topic \"past events\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved."
-      ],
-      "source": "Unit overview: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-02-card-biographies",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"biographies\"?",
-      "answer": "In Unit \"Unit 2: Life Stories\", the topic \"biographies\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved.",
-      "options": [
-        "In Unit \"Unit 2: Life Stories\", the topic \"biographies\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved."
-      ],
-      "source": "Unit overview: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-02-card-childhood-memories",
-      "chapterId": "unit-02",
-      "chapterTitle": "Unit 2: Life Stories",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"childhood memories\"?",
-      "answer": "In Unit \"Unit 2: Life Stories\", the topic \"childhood memories\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved.",
-      "options": [
-        "In Unit \"Unit 2: Life Stories\", the topic \"childhood memories\" covers: Simple past tense, Regular and irregular verbs, Past time expressions. Key vocabulary: was born, grew up, studied, worked, moved."
-      ],
-      "source": "Unit overview: Unit 2: Life Stories"
-    },
-    {
-      "id": "unit-03-vocab-1",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"travel\" means:",
-      "answer": "travel",
-      "options": [
-        "flight",
-        "reservation",
-        "travel",
-        "hotel"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-vocab-2",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"flight\" means:",
-      "answer": "flight",
-      "options": [
-        "travel",
-        "flight",
-        "reservation",
-        "hotel"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-vocab-3",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"hotel\" means:",
-      "answer": "hotel",
-      "options": [
-        "hotel",
-        "travel",
-        "flight",
-        "reservation"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-vocab-4",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"reservation\" means:",
-      "answer": "reservation",
-      "options": [
-        "hotel",
-        "reservation",
-        "travel",
-        "flight"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-vocab-5",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"destination\" means:",
-      "answer": "destination",
-      "options": [
-        "destination",
-        "travel",
-        "flight",
-        "hotel"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-vocab-6",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"travel plans\"? → \"passport\" means:",
-      "answer": "passport",
-      "options": [
-        "hotel",
-        "passport",
-        "flight",
-        "travel"
-      ],
-      "source": "Vocabulary: travel plans"
-    },
-    {
-      "id": "unit-03-grammar-1",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 3: When Are You Traveling?\"?",
-      "answer": "Future with 'going to'",
-      "options": [
-        "Future with 'will'",
-        "Future with 'going to'",
-        "Present continuous for future plans"
-      ],
-      "source": "Grammar focus: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-03-grammar-2",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 3: When Are You Traveling?\"?",
-      "answer": "Future with 'will'",
-      "options": [
-        "Future with 'will'",
-        "Future with 'going to'",
-        "Present continuous for future plans"
-      ],
-      "source": "Grammar focus: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-03-grammar-3",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 3: When Are You Traveling?\"?",
-      "answer": "Present continuous for future plans",
-      "options": [
-        "Future with 'will'",
-        "Future with 'going to'",
-        "Present continuous for future plans"
-      ],
-      "source": "Grammar focus: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-03-tf-Lesson-1-",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "صح وخطأ",
-      "prompt": "Students discuss future travel plans using 'going to' and 'will'.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: Travel Plans"
-    },
-    {
-      "id": "unit-03-tf-Lesson-2-",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "صح وخطأ",
-      "prompt": "Students practice airport and travel vocabulary.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: At the Airport"
-    },
-    {
-      "id": "unit-03-tf-Lesson-3-",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "صح وخطأ",
-      "prompt": "Students learn to book hotels and make travel reservations.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Making Reservations"
-    },
-    {
-      "id": "unit-03-card-travel-plans",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"travel plans\"?",
-      "answer": "In Unit \"Unit 3: When Are You Traveling?\", the topic \"travel plans\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination.",
-      "options": [
-        "In Unit \"Unit 3: When Are You Traveling?\", the topic \"travel plans\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination."
-      ],
-      "source": "Unit overview: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-03-card-future-tense",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"future tense\"?",
-      "answer": "In Unit \"Unit 3: When Are You Traveling?\", the topic \"future tense\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination.",
-      "options": [
-        "In Unit \"Unit 3: When Are You Traveling?\", the topic \"future tense\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination."
-      ],
-      "source": "Unit overview: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-03-card-transportation",
-      "chapterId": "unit-03",
-      "chapterTitle": "Unit 3: When Are You Traveling?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"transportation\"?",
-      "answer": "In Unit \"Unit 3: When Are You Traveling?\", the topic \"transportation\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination.",
-      "options": [
-        "In Unit \"Unit 3: When Are You Traveling?\", the topic \"transportation\" covers: Future with 'going to', Future with 'will', Present continuous for future plans. Key vocabulary: travel, flight, hotel, reservation, destination."
-      ],
-      "source": "Unit overview: Unit 3: When Are You Traveling?"
-    },
-    {
-      "id": "unit-04-vocab-1",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"grocery\" means:",
-      "answer": "grocery",
-      "options": [
-        "dozen",
-        "quantity",
-        "supermarket",
-        "grocery"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-vocab-2",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"supermarket\" means:",
-      "answer": "supermarket",
-      "options": [
-        "quantity",
-        "grocery",
-        "supermarket",
-        "dozen"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-vocab-3",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"quantity\" means:",
-      "answer": "quantity",
-      "options": [
-        "quantity",
-        "grocery",
-        "dozen",
-        "supermarket"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-vocab-4",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"dozen\" means:",
-      "answer": "dozen",
-      "options": [
-        "quantity",
-        "dozen",
-        "grocery",
-        "supermarket"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-vocab-5",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"loaf\" means:",
-      "answer": "loaf",
-      "options": [
-        "loaf",
-        "grocery",
-        "quantity",
-        "supermarket"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-vocab-6",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"bottle\" means:",
-      "answer": "bottle",
-      "options": [
-        "bottle",
-        "grocery",
-        "quantity",
-        "supermarket"
-      ],
-      "source": "Vocabulary: shopping"
-    },
-    {
-      "id": "unit-04-grammar-1",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 4: What Do I Need to Buy?\"?",
-      "answer": "Countable and uncountable nouns",
-      "options": [
-        "Countable and uncountable nouns",
-        "Some / any / a lot of / much / many",
-        "How much / How many"
-      ],
-      "source": "Grammar focus: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-04-grammar-2",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 4: What Do I Need to Buy?\"?",
-      "answer": "Some / any / a lot of / much / many",
-      "options": [
-        "Some / any / a lot of / much / many",
-        "Countable and uncountable nouns",
-        "How much / How many"
-      ],
-      "source": "Grammar focus: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-04-grammar-3",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 4: What Do I Need to Buy?\"?",
-      "answer": "How much / How many",
-      "options": [
-        "How much / How many",
-        "Countable and uncountable nouns",
-        "Some / any / a lot of / much / many"
-      ],
-      "source": "Grammar focus: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-04-tf-Lesson-1-",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "صح وخطأ",
-      "prompt": "Students practice shopping vocabulary and quantities.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: At the Supermarket"
-    },
-    {
-      "id": "unit-04-tf-Lesson-2-",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "صح وخطأ",
-      "prompt": "Students use countable and uncountable nouns.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: How Much / How Many"
-    },
-    {
-      "id": "unit-04-tf-Lesson-3-",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "صح وخطأ",
-      "prompt": "Students write and discuss shopping lists.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Making a Shopping List"
-    },
-    {
-      "id": "unit-04-card-shopping",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"shopping\"?",
-      "answer": "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"shopping\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf.",
-      "options": [
-        "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"shopping\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf."
-      ],
-      "source": "Unit overview: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-04-card-quantities",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"quantities\"?",
-      "answer": "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"quantities\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf.",
-      "options": [
-        "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"quantities\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf."
-      ],
-      "source": "Unit overview: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-04-card-food-items",
-      "chapterId": "unit-04",
-      "chapterTitle": "Unit 4: What Do I Need to Buy?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"food items\"?",
-      "answer": "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"food items\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf.",
-      "options": [
-        "In Unit \"Unit 4: What Do I Need to Buy?\", the topic \"food items\" covers: Countable and uncountable nouns, Some / any / a lot of / much / many, How much / How many. Key vocabulary: grocery, supermarket, quantity, dozen, loaf."
-      ],
-      "source": "Unit overview: Unit 4: What Do I Need to Buy?"
-    },
-    {
-      "id": "unit-05-vocab-1",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"already\" means:",
-      "answer": "already",
-      "options": [
-        "ever",
-        "just",
-        "yet",
-        "already"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-vocab-2",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"yet\" means:",
-      "answer": "yet",
-      "options": [
-        "ever",
-        "just",
-        "yet",
-        "already"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-vocab-3",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"just\" means:",
-      "answer": "just",
-      "options": [
-        "just",
-        "yet",
-        "already",
-        "ever"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-vocab-4",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"ever\" means:",
-      "answer": "ever",
-      "options": [
-        "ever",
-        "yet",
-        "just",
-        "already"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-vocab-5",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"never\" means:",
-      "answer": "never",
-      "options": [
-        "just",
-        "yet",
-        "already",
-        "never"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-vocab-6",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"experiences\"? → \"recently\" means:",
-      "answer": "recently",
-      "options": [
-        "recently",
-        "just",
-        "already",
-        "yet"
-      ],
-      "source": "Vocabulary: experiences"
-    },
-    {
-      "id": "unit-05-grammar-1",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 5: Since When?\"?",
-      "answer": "Present perfect tense",
-      "options": [
-        "Present perfect tense",
-        "For and since",
-        "Already / yet / just / ever / never"
-      ],
-      "source": "Grammar focus: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-05-grammar-2",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 5: Since When?\"?",
-      "answer": "For and since",
-      "options": [
-        "Present perfect tense",
-        "For and since",
-        "Already / yet / just / ever / never"
-      ],
-      "source": "Grammar focus: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-05-grammar-3",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 5: Since When?\"?",
-      "answer": "Already / yet / just / ever / never",
-      "options": [
-        "Present perfect tense",
-        "Already / yet / just / ever / never",
-        "For and since"
-      ],
-      "source": "Grammar focus: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-05-tf-Lesson-1-",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "صح وخطأ",
-      "prompt": "Students talk about life experiences using the present perfect.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: Have You Ever?"
-    },
-    {
-      "id": "unit-05-tf-Lesson-2-",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "صح وخطأ",
-      "prompt": "Students practice using for and since with the present perfect.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: For and Since"
-    },
-    {
-      "id": "unit-05-tf-Lesson-3-",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "صح وخطأ",
-      "prompt": "Students discuss personal achievements and experiences.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Achievements"
-    },
-    {
-      "id": "unit-05-card-experiences",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"experiences\"?",
-      "answer": "In Unit \"Unit 5: Since When?\", the topic \"experiences\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never.",
-      "options": [
-        "In Unit \"Unit 5: Since When?\", the topic \"experiences\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never."
-      ],
-      "source": "Unit overview: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-05-card-present-perfect",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"present perfect\"?",
-      "answer": "In Unit \"Unit 5: Since When?\", the topic \"present perfect\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never.",
-      "options": [
-        "In Unit \"Unit 5: Since When?\", the topic \"present perfect\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never."
-      ],
-      "source": "Unit overview: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-05-card-for-and-since",
-      "chapterId": "unit-05",
-      "chapterTitle": "Unit 5: Since When?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"for and since\"?",
-      "answer": "In Unit \"Unit 5: Since When?\", the topic \"for and since\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never.",
-      "options": [
-        "In Unit \"Unit 5: Since When?\", the topic \"for and since\" covers: Present perfect tense, For and since, Already / yet / just / ever / never. Key vocabulary: already, yet, just, ever, never."
-      ],
-      "source": "Unit overview: Unit 5: Since When?"
-    },
-    {
-      "id": "unit-06-vocab-1",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"turn left\" means:",
-      "answer": "turn left",
-      "options": [
-        "turn left",
-        "corner",
-        "turn right",
-        "straight ahead"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-vocab-2",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"turn right\" means:",
-      "answer": "turn right",
-      "options": [
-        "turn left",
-        "straight ahead",
-        "turn right",
-        "corner"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-vocab-3",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"straight ahead\" means:",
-      "answer": "straight ahead",
-      "options": [
-        "corner",
-        "turn right",
-        "turn left",
-        "straight ahead"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-vocab-4",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"corner\" means:",
-      "answer": "corner",
-      "options": [
-        "corner",
-        "turn left",
-        "turn right",
-        "straight ahead"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-vocab-5",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"block\" means:",
-      "answer": "block",
-      "options": [
-        "block",
-        "turn right",
-        "straight ahead",
-        "turn left"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-vocab-6",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"giving directions\"? → \"intersection\" means:",
-      "answer": "intersection",
-      "options": [
-        "straight ahead",
-        "turn right",
-        "turn left",
-        "intersection"
-      ],
-      "source": "Vocabulary: giving directions"
-    },
-    {
-      "id": "unit-06-grammar-1",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 6: Do You Know Where It Is?\"?",
-      "answer": "Embedded questions (indirect questions)",
-      "options": [
-        "Embedded questions (indirect questions)",
-        "Prepositions of place",
-        "Imperatives for directions"
-      ],
-      "source": "Grammar focus: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-06-grammar-2",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 6: Do You Know Where It Is?\"?",
-      "answer": "Prepositions of place",
-      "options": [
-        "Imperatives for directions",
-        "Embedded questions (indirect questions)",
-        "Prepositions of place"
-      ],
-      "source": "Grammar focus: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-06-grammar-3",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 6: Do You Know Where It Is?\"?",
-      "answer": "Imperatives for directions",
-      "options": [
-        "Imperatives for directions",
-        "Prepositions of place",
-        "Embedded questions (indirect questions)"
-      ],
-      "source": "Grammar focus: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-06-tf-Lesson-1-",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "صح وخطأ",
-      "prompt": "Students practice asking for and giving directions.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 1: Asking for Directions"
-    },
-    {
-      "id": "unit-06-tf-Lesson-2-",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "صح وخطأ",
-      "prompt": "Students use indirect questions to ask politely.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: Embedded Questions"
-    },
-    {
-      "id": "unit-06-tf-Lesson-3-",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "صح وخطأ",
-      "prompt": "Students describe locations using prepositions.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Reading a Map"
-    },
-    {
-      "id": "unit-06-card-giving-directions",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"giving directions\"?",
-      "answer": "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"giving directions\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block.",
-      "options": [
-        "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"giving directions\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block."
-      ],
-      "source": "Unit overview: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-06-card-locations",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"locations\"?",
-      "answer": "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"locations\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block.",
-      "options": [
-        "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"locations\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block."
-      ],
-      "source": "Unit overview: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-06-card-embedded-questions",
-      "chapterId": "unit-06",
-      "chapterTitle": "Unit 6: Do You Know Where It Is?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"embedded questions\"?",
-      "answer": "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"embedded questions\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block.",
-      "options": [
-        "In Unit \"Unit 6: Do You Know Where It Is?\", the topic \"embedded questions\" covers: Embedded questions (indirect questions), Prepositions of place, Imperatives for directions. Key vocabulary: turn left, turn right, straight ahead, corner, block."
-      ],
-      "source": "Unit overview: Unit 6: Do You Know Where It Is?"
-    },
-    {
-      "id": "unit-07-vocab-1",
+      "id": "unit-07-q1",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"bargain\" means:",
-      "answer": "bargain",
+      "prompt": "Bobby Shafran, Eddy Galland, and David Kellman discovered they were:",
+      "answer": "Triplets",
       "options": [
-        "bargain",
-        "deal",
-        "price tag",
-        "discount"
+        "Twins",
+        "Triplets",
+        "Cousins",
+        "Brothers born one year apart"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-vocab-2",
+      "id": "unit-07-q2",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"deal\" means:",
-      "answer": "deal",
+      "prompt": "Why were Daphne Goodship and Barbara Herbert called the 'Giggle twins'?",
+      "answer": "Because they were talkative and laughed a lot",
       "options": [
-        "discount",
-        "price tag",
-        "bargain",
-        "deal"
+        "Because they were talkative and laughed a lot",
+        "Because they always wore the same clothes",
+        "Because they lived in the same town",
+        "Because they cooked the same meals"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-vocab-3",
+      "id": "unit-07-q3",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"price tag\" means:",
-      "answer": "price tag",
+      "prompt": "How old were the Giggle twins when they first met?",
+      "answer": "39",
       "options": [
-        "price tag",
-        "deal",
-        "bargain",
-        "discount"
+        "19",
+        "29",
+        "39",
+        "49"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-vocab-4",
+      "id": "unit-07-q4",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"discount\" means:",
-      "answer": "discount",
+      "prompt": "What is Sean doing in Chicago?",
+      "answer": "He is an exchange student",
       "options": [
-        "price tag",
-        "bargain",
-        "deal",
-        "discount"
+        "He is an exchange student",
+        "He is a tourist",
+        "He is working at a company",
+        "He is visiting family"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-vocab-5",
+      "id": "unit-07-q5",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"garage sale\" means:",
-      "answer": "garage sale",
+      "prompt": "Which tag question is correct for: 'Vesuvius destroyed Pompeii'?",
+      "answer": "Vesuvius destroyed Pompeii, didn't it?",
       "options": [
-        "price tag",
-        "garage sale",
-        "bargain",
-        "deal"
+        "Vesuvius destroyed Pompeii, didn't it?",
+        "Vesuvius destroyed Pompeii, wasn't it?",
+        "Vesuvius destroyed Pompeii, did it?",
+        "Vesuvius destroyed Pompeii, isn't it?"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-vocab-6",
+      "id": "unit-07-q6",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"shopping\"? → \"secondhand\" means:",
-      "answer": "secondhand",
+      "prompt": "Who invented the printing press according to the book?",
+      "answer": "Gutenberg",
       "options": [
-        "secondhand",
-        "price tag",
-        "bargain",
-        "deal"
+        "Da Vinci",
+        "Gutenberg",
+        "Einstein",
+        "Newton"
       ],
-      "source": "Vocabulary: shopping"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-grammar-1",
-      "chapterId": "unit-07",
-      "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 7: It's a Good Deal, Isn't It?\"?",
-      "answer": "Tag questions (affirmative and negative)",
-      "options": [
-        "Expressing ability with 'be able to'",
-        "Negative questions",
-        "Tag questions (affirmative and negative)"
-      ],
-      "source": "Grammar focus: Unit 7: It's a Good Deal, Isn't It?"
-    },
-    {
-      "id": "unit-07-grammar-2",
-      "chapterId": "unit-07",
-      "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 7: It's a Good Deal, Isn't It?\"?",
-      "answer": "Negative questions",
-      "options": [
-        "Expressing ability with 'be able to'",
-        "Tag questions (affirmative and negative)",
-        "Negative questions"
-      ],
-      "source": "Grammar focus: Unit 7: It's a Good Deal, Isn't It?"
-    },
-    {
-      "id": "unit-07-grammar-3",
-      "chapterId": "unit-07",
-      "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 7: It's a Good Deal, Isn't It?\"?",
-      "answer": "Expressing ability with 'be able to'",
-      "options": [
-        "Expressing ability with 'be able to'",
-        "Tag questions (affirmative and negative)",
-        "Negative questions"
-      ],
-      "source": "Grammar focus: Unit 7: It's a Good Deal, Isn't It?"
-    },
-    {
-      "id": "unit-07-tf-Lesson-1-",
+      "id": "unit-07-q7",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "صح وخطأ",
-      "prompt": "Students talk about buying and selling items at garage sales.",
+      "prompt": "Bobby Shafran and Eddy Galland grew up in the same family.",
+      "answer": "خطأ",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-07-q8",
+      "chapterId": "unit-07",
+      "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
+      "type": "صح وخطأ",
+      "prompt": "The Giggle twins had similar personalities and both laughed a lot.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Garage Sales"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-tf-Lesson-2-",
+      "id": "unit-07-q9",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "صح وخطأ",
-      "prompt": "Students practice forming and using tag questions.",
+      "prompt": "Tag questions use a rising intonation to confirm information.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 2: Tag Questions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-tf-Lesson-3-",
+      "id": "unit-07-q10",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "صح وخطأ",
-      "prompt": "Students use negative questions to confirm information.",
+      "prompt": "Sean already knew his way around Chicago campus when Ted offered to help.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 3: Confirming Information"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-card-shopping",
+      "id": "unit-07-q11",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"shopping\"?",
-      "answer": "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"shopping\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale.",
+      "prompt": "What is a tag question? Give an example.",
+      "answer": "A tag question is a short question added at the end of a statement to confirm information or ask for agreement. Example: 'You're coming with us, aren't you?' or 'We haven't met before, have we?'",
       "options": [
-        "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"shopping\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale."
+        "A tag question is a short question added at the end of a statement to confirm information or ask for agreement. Example: 'You're coming with us, aren't you?' or 'We haven't met before, have we?'"
       ],
-      "source": "Unit overview: Unit 7: It's a Good Deal, Isn't It?"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-card-tag-questions",
+      "id": "unit-07-q12",
       "chapterId": "unit-07",
       "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"tag questions\"?",
-      "answer": "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"tag questions\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale.",
+      "prompt": "What rule do scientists study when they look at twins raised apart?",
+      "answer": "Scientists study the classic question: 'What's more important—heredity or environment?' Twin studies like the Giggle twins suggest heredity plays an important role, as twins raised apart share similar personalities and habits.",
       "options": [
-        "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"tag questions\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale."
+        "Scientists study the classic question: 'What's more important—heredity or environment?' Twin studies like the Giggle twins suggest heredity plays an important role, as twins raised apart share similar personalities and habits."
       ],
-      "source": "Unit overview: Unit 7: It's a Good Deal, Isn't It?"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-07-card-prices",
-      "chapterId": "unit-07",
-      "chapterTitle": "Unit 7: It's a Good Deal, Isn't It?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"prices\"?",
-      "answer": "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"prices\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale.",
-      "options": [
-        "In Unit \"Unit 7: It's a Good Deal, Isn't It?\", the topic \"prices\" covers: Tag questions (affirmative and negative), Negative questions, Expressing ability with 'be able to'. Key vocabulary: bargain, deal, price tag, discount, garage sale."
-      ],
-      "source": "Unit overview: Unit 7: It's a Good Deal, Isn't It?"
-    },
-    {
-      "id": "unit-08-vocab-1",
+      "id": "unit-08-q1",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"speed limit\" means:",
-      "answer": "speed limit",
+      "prompt": "Which sentence gives a strong rule or obligation?",
+      "answer": "Drivers must wear their seatbelts.",
       "options": [
-        "license",
-        "seatbelt",
-        "traffic sign",
-        "speed limit"
+        "Drivers must wear their seatbelts.",
+        "Drivers should wear their seatbelts.",
+        "Drivers might wear their seatbelts.",
+        "Drivers can wear their seatbelts."
       ],
-      "source": "Vocabulary: cars"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-vocab-2",
+      "id": "unit-08-q2",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"traffic sign\" means:",
-      "answer": "traffic sign",
+      "prompt": "According to the book, what do aggressive drivers do?",
+      "answer": "Drive dangerously and recklessly",
       "options": [
-        "traffic sign",
-        "seatbelt",
-        "speed limit",
-        "license"
+        "Drive dangerously and recklessly",
+        "Drive carefully and slowly",
+        "Always follow traffic rules",
+        "Stop at every traffic light"
       ],
-      "source": "Vocabulary: cars"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-vocab-3",
+      "id": "unit-08-q3",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"seatbelt\" means:",
-      "answer": "seatbelt",
+      "prompt": "Which modal verb is used to give advice (not a strong rule)?",
+      "answer": "should",
       "options": [
-        "seatbelt",
-        "speed limit",
-        "license",
-        "traffic sign"
+        "must",
+        "should",
+        "have to",
+        "mustn't"
       ],
-      "source": "Vocabulary: cars"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-vocab-4",
+      "id": "unit-08-q4",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"license\" means:",
-      "answer": "license",
+      "prompt": "Which is an adverb of manner that describes how aggressive drivers drive?",
+      "answer": "recklessly",
       "options": [
-        "seatbelt",
-        "traffic sign",
-        "speed limit",
-        "license"
+        "recklessly",
+        "reckless",
+        "recklessness",
+        "reckle"
       ],
-      "source": "Vocabulary: cars"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-vocab-5",
+      "id": "unit-08-q5",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"fine\" means:",
-      "answer": "fine",
+      "prompt": "What does 'mustn't' express?",
+      "answer": "A strong prohibition (something you are not allowed to do)",
       "options": [
-        "fine",
-        "speed limit",
-        "traffic sign",
-        "seatbelt"
+        "A strong prohibition (something you are not allowed to do)",
+        "A recommendation",
+        "A possibility",
+        "A polite request"
       ],
-      "source": "Vocabulary: cars"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-vocab-6",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cars\"? → \"pedestrian\" means:",
-      "answer": "pedestrian",
-      "options": [
-        "seatbelt",
-        "speed limit",
-        "pedestrian",
-        "traffic sign"
-      ],
-      "source": "Vocabulary: cars"
-    },
-    {
-      "id": "unit-08-grammar-1",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 8: Drive Slowly!\"?",
-      "answer": "Modal auxiliaries: must / mustn't / should / shouldn't",
-      "options": [
-        "Requests and commands with can/could/will/would",
-        "Adverbs of manner",
-        "Modal auxiliaries: must / mustn't / should / shouldn't"
-      ],
-      "source": "Grammar focus: Unit 8: Drive Slowly!"
-    },
-    {
-      "id": "unit-08-grammar-2",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 8: Drive Slowly!\"?",
-      "answer": "Adverbs of manner",
-      "options": [
-        "Modal auxiliaries: must / mustn't / should / shouldn't",
-        "Adverbs of manner",
-        "Requests and commands with can/could/will/would"
-      ],
-      "source": "Grammar focus: Unit 8: Drive Slowly!"
-    },
-    {
-      "id": "unit-08-grammar-3",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 8: Drive Slowly!\"?",
-      "answer": "Requests and commands with can/could/will/would",
-      "options": [
-        "Requests and commands with can/could/will/would",
-        "Modal auxiliaries: must / mustn't / should / shouldn't",
-        "Adverbs of manner"
-      ],
-      "source": "Grammar focus: Unit 8: Drive Slowly!"
-    },
-    {
-      "id": "unit-08-tf-Lesson-1-",
+      "id": "unit-08-q6",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "صح وخطأ",
-      "prompt": "Students discuss traffic signs and road rules using modal verbs.",
+      "prompt": "Drivers should drive too fast on the highway.",
+      "answer": "خطأ",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-08-q7",
+      "chapterId": "unit-08",
+      "chapterTitle": "Unit 8: Drive Slowly!",
+      "type": "صح وخطأ",
+      "prompt": "'Must' is stronger than 'should' when expressing obligation.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Traffic Rules"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-tf-Lesson-2-",
+      "id": "unit-08-q8",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "صح وخطأ",
-      "prompt": "Students describe how people do things using adverbs.",
+      "prompt": "Adverbs of manner describe how an action is performed.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 2: Adverbs of Manner"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-tf-Lesson-3-",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "صح وخطأ",
-      "prompt": "Students practice making polite requests using modals.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Requests and Commands"
-    },
-    {
-      "id": "unit-08-card-cars",
+      "id": "unit-08-q9",
       "chapterId": "unit-08",
       "chapterTitle": "Unit 8: Drive Slowly!",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"cars\"?",
-      "answer": "In Unit \"Unit 8: Drive Slowly!\", the topic \"cars\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine.",
+      "prompt": "What is the difference between 'must' and 'should'?",
+      "answer": "'Must' expresses a strong obligation or rule that you are required to follow (e.g., Drivers must wear seatbelts). 'Should' gives advice or a recommendation but is not as strong (e.g., Drivers should drive slowly in school zones).",
       "options": [
-        "In Unit \"Unit 8: Drive Slowly!\", the topic \"cars\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine."
+        "'Must' expresses a strong obligation or rule that you are required to follow (e.g., Drivers must wear seatbelts). 'Should' gives advice or a recommendation but is not as strong (e.g., Drivers should drive slowly in school zones)."
       ],
-      "source": "Unit overview: Unit 8: Drive Slowly!"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-08-card-driving",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"driving\"?",
-      "answer": "In Unit \"Unit 8: Drive Slowly!\", the topic \"driving\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine.",
-      "options": [
-        "In Unit \"Unit 8: Drive Slowly!\", the topic \"driving\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine."
-      ],
-      "source": "Unit overview: Unit 8: Drive Slowly!"
-    },
-    {
-      "id": "unit-08-card-traffic-rules",
-      "chapterId": "unit-08",
-      "chapterTitle": "Unit 8: Drive Slowly!",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"traffic rules\"?",
-      "answer": "In Unit \"Unit 8: Drive Slowly!\", the topic \"traffic rules\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine.",
-      "options": [
-        "In Unit \"Unit 8: Drive Slowly!\", the topic \"traffic rules\" covers: Modal auxiliaries: must / mustn't / should / shouldn't, Adverbs of manner, Requests and commands with can/could/will/would. Key vocabulary: speed limit, traffic sign, seatbelt, license, fine."
-      ],
-      "source": "Unit overview: Unit 8: Drive Slowly!"
-    },
-    {
-      "id": "unit-09-vocab-1",
+      "id": "unit-09-q1",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"personality\" means:",
-      "answer": "personality",
+      "prompt": "Which sentence correctly uses the past progressive?",
+      "answer": "I was studying when the phone rang.",
       "options": [
-        "ambitious",
-        "generous",
-        "character",
-        "personality"
+        "I was studying when the phone rang.",
+        "I studied when the phone was ringing.",
+        "I study when the phone rang.",
+        "I am studying when the phone rang."
       ],
-      "source": "Vocabulary: personality"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-vocab-2",
+      "id": "unit-09-q2",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"character\" means:",
-      "answer": "character",
+      "prompt": "Which relative pronoun do you use for people?",
+      "answer": "who",
       "options": [
-        "character",
-        "personality",
-        "ambitious",
-        "generous"
+        "who",
+        "which",
+        "that only",
+        "where"
       ],
-      "source": "Vocabulary: personality"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-vocab-3",
+      "id": "unit-09-q3",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"ambitious\" means:",
+      "prompt": "Which word best describes a person who always keeps promises and can be counted on?",
+      "answer": "reliable",
+      "options": [
+        "reliable",
+        "stubborn",
+        "shy",
+        "ambitious"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-09-q4",
+      "chapterId": "unit-09",
+      "chapterTitle": "Unit 9: All Kinds of People",
+      "type": "اختيار من متعدد",
+      "prompt": "Complete the sentence: She was reading a book _____ the electricity went out.",
+      "answer": "when",
+      "options": [
+        "when",
+        "while",
+        "because",
+        "although"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-09-q5",
+      "chapterId": "unit-09",
+      "chapterTitle": "Unit 9: All Kinds of People",
+      "type": "اختيار من متعدد",
+      "prompt": "Which personality trait describes someone who wants to succeed and works hard?",
       "answer": "ambitious",
       "options": [
-        "personality",
-        "generous",
-        "ambitious",
-        "character"
-      ],
-      "source": "Vocabulary: personality"
-    },
-    {
-      "id": "unit-09-vocab-4",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"generous\" means:",
-      "answer": "generous",
-      "options": [
-        "character",
         "ambitious",
         "generous",
-        "personality"
-      ],
-      "source": "Vocabulary: personality"
-    },
-    {
-      "id": "unit-09-vocab-5",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"stubborn\" means:",
-      "answer": "stubborn",
-      "options": [
-        "ambitious",
-        "personality",
-        "character",
-        "stubborn"
-      ],
-      "source": "Vocabulary: personality"
-    },
-    {
-      "id": "unit-09-vocab-6",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"personality\"? → \"patient\" means:",
-      "answer": "patient",
-      "options": [
-        "ambitious",
         "patient",
-        "character",
-        "personality"
+        "cheerful"
       ],
-      "source": "Vocabulary: personality"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-grammar-1",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 9: All Kinds of People\"?",
-      "answer": "Past progressive with when and while",
-      "options": [
-        "Past progressive with when and while",
-        "Relative pronouns: who, that, which",
-        "Can/may/could for possibility"
-      ],
-      "source": "Grammar focus: Unit 9: All Kinds of People"
-    },
-    {
-      "id": "unit-09-grammar-2",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 9: All Kinds of People\"?",
-      "answer": "Relative pronouns: who, that, which",
-      "options": [
-        "Relative pronouns: who, that, which",
-        "Past progressive with when and while",
-        "Can/may/could for possibility"
-      ],
-      "source": "Grammar focus: Unit 9: All Kinds of People"
-    },
-    {
-      "id": "unit-09-grammar-3",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 9: All Kinds of People\"?",
-      "answer": "Can/may/could for possibility",
-      "options": [
-        "Past progressive with when and while",
-        "Can/may/could for possibility",
-        "Relative pronouns: who, that, which"
-      ],
-      "source": "Grammar focus: Unit 9: All Kinds of People"
-    },
-    {
-      "id": "unit-09-tf-Lesson-1-",
+      "id": "unit-09-q6",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "صح وخطأ",
-      "prompt": "Students describe people's personalities and character traits.",
+      "prompt": "The past progressive is formed with: was/were + verb-ing.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Describing Personality"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-tf-Lesson-2-",
+      "id": "unit-09-q7",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "صح وخطأ",
-      "prompt": "Students talk about past events that were interrupted.",
-      "answer": "صح",
+      "prompt": "We use 'which' to give more information about a person.",
+      "answer": "خطأ",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 2: Past Progressive"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-tf-Lesson-3-",
+      "id": "unit-09-q8",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "صح وخطأ",
-      "prompt": "Students use relative pronouns to give more information.",
+      "prompt": "'While' and 'when' can both be used to connect two past events.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 3: Relative Clauses"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-card-personality",
+      "id": "unit-09-q9",
       "chapterId": "unit-09",
       "chapterTitle": "Unit 9: All Kinds of People",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"personality\"?",
-      "answer": "In Unit \"Unit 9: All Kinds of People\", the topic \"personality\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn.",
+      "prompt": "How do you form the past progressive tense? Give an example.",
+      "answer": "The past progressive is formed with was/were + verb-ing. Example: 'They were playing football when it started to rain.' It describes an action in progress at a moment in the past.",
       "options": [
-        "In Unit \"Unit 9: All Kinds of People\", the topic \"personality\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn."
+        "The past progressive is formed with was/were + verb-ing. Example: 'They were playing football when it started to rain.' It describes an action in progress at a moment in the past."
       ],
-      "source": "Unit overview: Unit 9: All Kinds of People"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-09-card-past-events-interrupted",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"past events interrupted\"?",
-      "answer": "In Unit \"Unit 9: All Kinds of People\", the topic \"past events interrupted\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn.",
-      "options": [
-        "In Unit \"Unit 9: All Kinds of People\", the topic \"past events interrupted\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn."
-      ],
-      "source": "Unit overview: Unit 9: All Kinds of People"
-    },
-    {
-      "id": "unit-09-card-relative-pronouns",
-      "chapterId": "unit-09",
-      "chapterTitle": "Unit 9: All Kinds of People",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"relative pronouns\"?",
-      "answer": "In Unit \"Unit 9: All Kinds of People\", the topic \"relative pronouns\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn.",
-      "options": [
-        "In Unit \"Unit 9: All Kinds of People\", the topic \"relative pronouns\" covers: Past progressive with when and while, Relative pronouns: who, that, which, Can/may/could for possibility. Key vocabulary: personality, character, ambitious, generous, stubborn."
-      ],
-      "source": "Unit overview: Unit 9: All Kinds of People"
-    },
-    {
-      "id": "unit-10-vocab-1",
+      "id": "unit-10-q1",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"toothpaste\" means:",
-      "answer": "toothpaste",
+      "prompt": "Sarah's nephew Kareem stayed at her house for:",
+      "answer": "Almost three months",
       "options": [
-        "toothpaste",
-        "chore",
-        "tidy",
-        "messy"
+        "One week",
+        "One month",
+        "Almost three months",
+        "Six months"
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-vocab-2",
+      "id": "unit-10-q2",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"chore\" means:",
-      "answer": "chore",
+      "prompt": "What does 'At long last!' mean in the conversation?",
+      "answer": "Finally!",
       "options": [
-        "chore",
-        "toothpaste",
-        "tidy",
-        "messy"
+        "Finally!",
+        "At the end of a long road",
+        "After a long time of waiting patiently",
+        "Unfortunately"
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-vocab-3",
+      "id": "unit-10-q3",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"messy\" means:",
-      "answer": "messy",
+      "prompt": "Which sentence uses the present perfect with 'already' correctly?",
+      "answer": "Yes, I've already done the dishes.",
       "options": [
-        "messy",
-        "tidy",
-        "toothpaste",
-        "chore"
+        "Yes, I've already done the dishes.",
+        "Yes, I already do the dishes.",
+        "Yes, I did already the dishes.",
+        "Yes, already I've done the dishes."
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-vocab-4",
+      "id": "unit-10-q4",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"tidy\" means:",
-      "answer": "tidy",
+      "prompt": "Which sentence is correct with a phrasal verb and a pronoun?",
+      "answer": "Turn it down.",
       "options": [
-        "messy",
-        "tidy",
-        "toothpaste",
-        "chore"
+        "Turn it down.",
+        "Turn down it.",
+        "It turn down.",
+        "Down turn it."
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-vocab-5",
+      "id": "unit-10-q5",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"dishwasher\" means:",
-      "answer": "dishwasher",
+      "prompt": "Which verb CANNOT be followed by a gerund (verb+ing)?",
+      "answer": "want",
       "options": [
-        "messy",
-        "chore",
-        "toothpaste",
-        "dishwasher"
+        "enjoy",
+        "avoid",
+        "want",
+        "can't stand"
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-vocab-6",
+      "id": "unit-10-q6",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"chores\"? → \"laundry\" means:",
-      "answer": "laundry",
+      "prompt": "What does 'That's a bit too much' mean?",
+      "answer": "This has gone too far",
       "options": [
-        "chore",
-        "toothpaste",
-        "messy",
-        "laundry"
+        "This has gone too far",
+        "That is very expensive",
+        "That is a large quantity",
+        "This is quite acceptable"
       ],
-      "source": "Vocabulary: chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-grammar-1",
-      "chapterId": "unit-10",
-      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 10: Who Used My Toothpaste?\"?",
-      "answer": "Past perfect tense",
-      "options": [
-        "Past perfect tense",
-        "Already / yet with past perfect",
-        "Reported speech for complaints"
-      ],
-      "source": "Grammar focus: Unit 10: Who Used My Toothpaste?"
-    },
-    {
-      "id": "unit-10-grammar-2",
-      "chapterId": "unit-10",
-      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 10: Who Used My Toothpaste?\"?",
-      "answer": "Already / yet with past perfect",
-      "options": [
-        "Past perfect tense",
-        "Already / yet with past perfect",
-        "Reported speech for complaints"
-      ],
-      "source": "Grammar focus: Unit 10: Who Used My Toothpaste?"
-    },
-    {
-      "id": "unit-10-grammar-3",
-      "chapterId": "unit-10",
-      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 10: Who Used My Toothpaste?\"?",
-      "answer": "Reported speech for complaints",
-      "options": [
-        "Past perfect tense",
-        "Reported speech for complaints",
-        "Already / yet with past perfect"
-      ],
-      "source": "Grammar focus: Unit 10: Who Used My Toothpaste?"
-    },
-    {
-      "id": "unit-10-tf-Lesson-1-",
+      "id": "unit-10-q7",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "صح وخطأ",
-      "prompt": "Students discuss household responsibilities and chores.",
+      "prompt": "Kareem always cleaned up after himself during his stay at Sarah's house.",
+      "answer": "خطأ",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-10-q8",
+      "chapterId": "unit-10",
+      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
+      "type": "صح وخطأ",
+      "prompt": "In phrasal verbs, object pronouns always come between the verb and the particle.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Household Chores"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-tf-Lesson-2-",
+      "id": "unit-10-q9",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "صح وخطأ",
-      "prompt": "Students practice making and responding to complaints.",
-      "answer": "صح",
+      "prompt": "'Yet' is used in affirmative sentences with the present perfect.",
+      "answer": "خطأ",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 2: Making Complaints"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-tf-Lesson-3-",
-      "chapterId": "unit-10",
-      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
-      "type": "صح وخطأ",
-      "prompt": "Students use the past perfect to talk about completed past actions.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Past Perfect"
-    },
-    {
-      "id": "unit-10-card-chores",
+      "id": "unit-10-q10",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"chores\"?",
-      "answer": "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"chores\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher.",
+      "prompt": "Explain the difference between 'already', 'yet', and 'just' with the present perfect.",
+      "answer": "'Already' = something happened sooner than expected (affirmative). Example: I've already done the dishes. 'Yet' = used in questions/negatives for uncompleted actions. Example: Have you done the dishes yet? No, I haven't done them yet. 'Just' = something happened very recently. Example: I've just washed them.",
       "options": [
-        "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"chores\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher."
+        "'Already' = something happened sooner than expected (affirmative). Example: I've already done the dishes. 'Yet' = used in questions/negatives for uncompleted actions. Example: Have you done the dishes yet? No, I haven't done them yet. 'Just' = something happened very recently. Example: I've just washed them."
       ],
-      "source": "Unit overview: Unit 10: Who Used My Toothpaste?"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-card-complaints",
+      "id": "unit-10-q11",
       "chapterId": "unit-10",
       "chapterTitle": "Unit 10: Who Used My Toothpaste?",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"complaints\"?",
-      "answer": "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"complaints\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher.",
+      "prompt": "What are phrasal verbs? Give an example with a pronoun.",
+      "answer": "Phrasal verbs (two-word verbs) consist of a verb + particle. Object pronouns ALWAYS come between the verb and the particle. Example: 'Turn down the TV' → 'Turn the TV down' → 'Turn it down.' (NOT 'Turn down it.')",
       "options": [
-        "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"complaints\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher."
+        "Phrasal verbs (two-word verbs) consist of a verb + particle. Object pronouns ALWAYS come between the verb and the particle. Example: 'Turn down the TV' → 'Turn the TV down' → 'Turn it down.' (NOT 'Turn down it.')"
       ],
-      "source": "Unit overview: Unit 10: Who Used My Toothpaste?"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-10-card-past-perfect",
-      "chapterId": "unit-10",
-      "chapterTitle": "Unit 10: Who Used My Toothpaste?",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"past perfect\"?",
-      "answer": "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"past perfect\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher.",
-      "options": [
-        "In Unit \"Unit 10: Who Used My Toothpaste?\", the topic \"past perfect\" covers: Past perfect tense, Already / yet with past perfect, Reported speech for complaints. Key vocabulary: toothpaste, chore, messy, tidy, dishwasher."
-      ],
-      "source": "Unit overview: Unit 10: Who Used My Toothpaste?"
-    },
-    {
-      "id": "unit-11-vocab-1",
+      "id": "unit-11-q1",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"decision\" means:",
-      "answer": "decision",
+      "prompt": "What were Faisal's three choices for the weekend?",
+      "answer": "Fahd's graduation dinner, Khalid's beach house, Saudi Hawks airshow",
       "options": [
-        "decision",
-        "choice",
-        "option",
-        "consequence"
+        "Fahd's graduation dinner, Khalid's beach house, Saudi Hawks airshow",
+        "A wedding, a birthday party, a football match",
+        "A trip to Riyadh, a beach trip, a graduation",
+        "A movie, a dinner, an airshow"
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-vocab-2",
+      "id": "unit-11-q2",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"choice\" means:",
-      "answer": "choice",
+      "prompt": "Why did Faisal prefer the Saudi Hawks airshow?",
+      "answer": "If he doesn't go this weekend, he may not get another chance to see it",
       "options": [
-        "option",
-        "consequence",
-        "decision",
-        "choice"
+        "If he doesn't go this weekend, he may not get another chance to see it",
+        "Because Tariq is his best friend",
+        "Because the airshow is free",
+        "Because Fahd told him to go"
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-vocab-3",
+      "id": "unit-11-q3",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"option\" means:",
-      "answer": "option",
+      "prompt": "In the story, what did Albrecht Dürer draw to show his gratitude to Albert?",
+      "answer": "His brother's abused hands (known as 'Hands' or 'Praying Hands')",
       "options": [
-        "consequence",
-        "choice",
-        "decision",
-        "option"
+        "His brother's abused hands (known as 'Hands' or 'Praying Hands')",
+        "A portrait of his brother's face",
+        "A painting of the mine where Albert worked",
+        "A drawing of their family home"
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-vocab-4",
+      "id": "unit-11-q4",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"consequence\" means:",
-      "answer": "consequence",
+      "prompt": "Which conditional sentence describes a present fact?",
+      "answer": "If you put water in the freezer, it becomes ice.",
       "options": [
-        "option",
-        "choice",
-        "decision",
-        "consequence"
+        "If you put water in the freezer, it becomes ice.",
+        "If Saeed gets the job, he'll be very happy.",
+        "If Noura doesn't do the homework, she may fail.",
+        "If Imad doesn't go to college, he might not get a good job."
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-vocab-5",
+      "id": "unit-11-q5",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"prefer\" means:",
-      "answer": "prefer",
+      "prompt": "What does 'up in the air' mean in Faisal's conversation?",
+      "answer": "Undecided",
       "options": [
-        "option",
-        "choice",
-        "decision",
-        "prefer"
+        "Undecided",
+        "Exciting",
+        "High in the sky",
+        "Busy"
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-vocab-6",
+      "id": "unit-11-q6",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"decisions\"? → \"consider\" means:",
-      "answer": "consider",
+      "prompt": "Why could Albert not attend the art academy after Albrecht returned?",
+      "answer": "Four years in the mines had smashed the bones in his fingers and he had arthritis",
       "options": [
-        "choice",
-        "decision",
-        "option",
-        "consider"
+        "Four years in the mines had smashed the bones in his fingers and he had arthritis",
+        "He lost interest in art",
+        "The academy was too expensive",
+        "He had moved to another city"
       ],
-      "source": "Vocabulary: decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-grammar-1",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 11: Making Choices\"?",
-      "answer": "Real conditionals (if + present, will)",
-      "options": [
-        "Should for advice",
-        "Unreal conditionals (if + past, would)",
-        "Real conditionals (if + present, will)"
-      ],
-      "source": "Grammar focus: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-11-grammar-2",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 11: Making Choices\"?",
-      "answer": "Unreal conditionals (if + past, would)",
-      "options": [
-        "Should for advice",
-        "Unreal conditionals (if + past, would)",
-        "Real conditionals (if + present, will)"
-      ],
-      "source": "Grammar focus: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-11-grammar-3",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 11: Making Choices\"?",
-      "answer": "Should for advice",
-      "options": [
-        "Unreal conditionals (if + past, would)",
-        "Should for advice",
-        "Real conditionals (if + present, will)"
-      ],
-      "source": "Grammar focus: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-11-tf-Lesson-1-",
+      "id": "unit-11-q7",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "صح وخطأ",
-      "prompt": "Students talk about making important choices in life.",
+      "prompt": "For future conditional facts, use simple present in both clauses.",
+      "answer": "خطأ",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-11-q8",
+      "chapterId": "unit-11",
+      "chapterTitle": "Unit 11: Making Choices",
+      "type": "صح وخطأ",
+      "prompt": "Albert Dürer worked in the mines to support his brother Albrecht's art studies.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Making Decisions"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-tf-Lesson-2-",
+      "id": "unit-11-q9",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
       "type": "صح وخطأ",
-      "prompt": "Students use real conditionals to talk about possible results.",
+      "prompt": "'I'd rather' is used to talk about a preference.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 2: Real Conditionals"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-tf-Lesson-3-",
+      "id": "unit-11-q10",
       "chapterId": "unit-11",
       "chapterTitle": "Unit 11: Making Choices",
+      "type": "بطاقة مراجعة",
+      "prompt": "Explain conditional sentences: what is the difference between present and future facts?",
+      "answer": "Present facts: use simple present in BOTH clauses. Example: 'If you cook an egg in the microwave, it explodes.' Future facts: use simple present in the IF-clause and will/going to in the result clause. Example: 'If Saeed gets the job, he'll be very happy.' You can also use may/might to show the result is possible but not certain.",
+      "options": [
+        "Present facts: use simple present in BOTH clauses. Example: 'If you cook an egg in the microwave, it explodes.' Future facts: use simple present in the IF-clause and will/going to in the result clause. Example: 'If Saeed gets the job, he'll be very happy.' You can also use may/might to show the result is possible but not certain."
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-11-q11",
+      "chapterId": "unit-11",
+      "chapterTitle": "Unit 11: Making Choices",
+      "type": "بطاقة مراجعة",
+      "prompt": "Summarize the agreement (pact) made between Albrecht and Albert Dürer.",
+      "answer": "The two brothers made a pact: Albert would go down in the mines and support Albrecht financially while Albrecht studied art at the academy in Nuremberg for four years. After Albrecht completed his studies and became successful, it would be Albert's turn to study art. However, when Albrecht returned, Albert's hands were too damaged from the mine work, so he was never able to pursue his dream.",
+      "options": [
+        "The two brothers made a pact: Albert would go down in the mines and support Albrecht financially while Albrecht studied art at the academy in Nuremberg for four years. After Albrecht completed his studies and became successful, it would be Albert's turn to study art. However, when Albrecht returned, Albert's hands were too damaged from the mine work, so he was never able to pursue his dream."
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q1",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "اختيار من متعدد",
+      "prompt": "According to the listening, how do Americans usually introduce themselves?",
+      "answer": "With their first names",
+      "options": [
+        "With their first names",
+        "With their last names",
+        "With their title and last name",
+        "They don't introduce themselves"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q2",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "اختيار من متعدد",
+      "prompt": "Which sentence uses a gerund as a subject correctly?",
+      "answer": "Traveling is a good way to learn about other cultures.",
+      "options": [
+        "Traveling is a good way to learn about other cultures.",
+        "Travel is a good way to learn about other cultures.",
+        "To travel is the good way to learn about other cultures.",
+        "Traveled is a good way to learn."
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q3",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "اختيار من متعدد",
+      "prompt": "Which verb is followed by an infinitive (not a gerund)?",
+      "answer": "refuse",
+      "options": [
+        "refuse",
+        "enjoy",
+        "can't stand",
+        "avoid"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q4",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "اختيار من متعدد",
+      "prompt": "Which expression from Unit 12 means 'something you are advised not to do'?",
+      "answer": "It's not advisable to...",
+      "options": [
+        "It's not advisable to...",
+        "It's polite to...",
+        "It's common to...",
+        "Make sure to..."
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q5",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "اختيار من متعدد",
+      "prompt": "According to the listening about the US, which statement is TRUE?",
+      "answer": "People are expected to arrive on time at all events.",
+      "options": [
+        "People are expected to arrive on time at all events.",
+        "Gestures are very similar all over the world.",
+        "Americans like to stand really close when talking.",
+        "Tipping is not common in the US."
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q6",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
       "type": "صح وخطأ",
-      "prompt": "Students use unreal conditionals for hypothetical situations.",
+      "prompt": "Gestures have the same meaning in all countries around the world.",
+      "answer": "خطأ",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "source": "SuperGoal 3 OCR"
+    },
+    {
+      "id": "unit-12-q7",
+      "chapterId": "unit-12",
+      "chapterTitle": "Unit 12: Culture Shock",
+      "type": "صح وخطأ",
+      "prompt": "In the United States, it is polite for house guests to bring a small gift.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 3: Unreal Conditionals"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-11-card-decisions",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"decisions\"?",
-      "answer": "In Unit \"Unit 11: Making Choices\", the topic \"decisions\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer.",
-      "options": [
-        "In Unit \"Unit 11: Making Choices\", the topic \"decisions\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer."
-      ],
-      "source": "Unit overview: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-11-card-conditionals",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"conditionals\"?",
-      "answer": "In Unit \"Unit 11: Making Choices\", the topic \"conditionals\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer.",
-      "options": [
-        "In Unit \"Unit 11: Making Choices\", the topic \"conditionals\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer."
-      ],
-      "source": "Unit overview: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-11-card-advice",
-      "chapterId": "unit-11",
-      "chapterTitle": "Unit 11: Making Choices",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"advice\"?",
-      "answer": "In Unit \"Unit 11: Making Choices\", the topic \"advice\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer.",
-      "options": [
-        "In Unit \"Unit 11: Making Choices\", the topic \"advice\" covers: Real conditionals (if + present, will), Unreal conditionals (if + past, would), Should for advice. Key vocabulary: decision, choice, option, consequence, prefer."
-      ],
-      "source": "Unit overview: Unit 11: Making Choices"
-    },
-    {
-      "id": "unit-12-vocab-1",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"culture\" means:",
-      "answer": "culture",
-      "options": [
-        "culture",
-        "custom",
-        "tradition",
-        "shock"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-vocab-2",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"custom\" means:",
-      "answer": "custom",
-      "options": [
-        "tradition",
-        "culture",
-        "shock",
-        "custom"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-vocab-3",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"tradition\" means:",
-      "answer": "tradition",
-      "options": [
-        "culture",
-        "shock",
-        "tradition",
-        "custom"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-vocab-4",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"shock\" means:",
-      "answer": "shock",
-      "options": [
-        "shock",
-        "culture",
-        "tradition",
-        "custom"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-vocab-5",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"adapt\" means:",
-      "answer": "adapt",
-      "options": [
-        "custom",
-        "adapt",
-        "tradition",
-        "culture"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-vocab-6",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which word is related to the topic \"cultures\"? → \"homesick\" means:",
-      "answer": "homesick",
-      "options": [
-        "homesick",
-        "culture",
-        "tradition",
-        "custom"
-      ],
-      "source": "Vocabulary: cultures"
-    },
-    {
-      "id": "unit-12-grammar-1",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 12: Culture Shock\"?",
-      "answer": "Comparatives and superlatives review",
-      "options": [
-        "Passive voice introduction",
-        "Comparatives and superlatives review",
-        "Connectors: although, however, despite"
-      ],
-      "source": "Grammar focus: Unit 12: Culture Shock"
-    },
-    {
-      "id": "unit-12-grammar-2",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 12: Culture Shock\"?",
-      "answer": "Passive voice introduction",
-      "options": [
-        "Passive voice introduction",
-        "Comparatives and superlatives review",
-        "Connectors: although, however, despite"
-      ],
-      "source": "Grammar focus: Unit 12: Culture Shock"
-    },
-    {
-      "id": "unit-12-grammar-3",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "اختيار من متعدد",
-      "prompt": "Which grammar point is studied in \"Unit 12: Culture Shock\"?",
-      "answer": "Connectors: although, however, despite",
-      "options": [
-        "Connectors: although, however, despite",
-        "Comparatives and superlatives review",
-        "Passive voice introduction"
-      ],
-      "source": "Grammar focus: Unit 12: Culture Shock"
-    },
-    {
-      "id": "unit-12-tf-Lesson-1-",
+      "id": "unit-12-q8",
       "chapterId": "unit-12",
       "chapterTitle": "Unit 12: Culture Shock",
       "type": "صح وخطأ",
-      "prompt": "Students discuss customs and traditions around the world.",
+      "prompt": "The verb 'remember' can be followed by either a gerund or an infinitive in different meanings.",
       "answer": "صح",
       "options": [
         "صح",
         "خطأ"
       ],
-      "source": "Lesson 1: Cultural Differences"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-12-tf-Lesson-2-",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "صح وخطأ",
-      "prompt": "Students talk about experiencing culture shock.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 2: Adapting to New Cultures"
-    },
-    {
-      "id": "unit-12-tf-Lesson-3-",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "صح وخطأ",
-      "prompt": "Students compare and contrast different cultural practices.",
-      "answer": "صح",
-      "options": [
-        "صح",
-        "خطأ"
-      ],
-      "source": "Lesson 3: Comparing Cultures"
-    },
-    {
-      "id": "unit-12-card-cultures",
+      "id": "unit-12-q9",
       "chapterId": "unit-12",
       "chapterTitle": "Unit 12: Culture Shock",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"cultures\"?",
-      "answer": "In Unit \"Unit 12: Culture Shock\", the topic \"cultures\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt.",
+      "prompt": "Name five verbs that must be followed by an infinitive (to + verb) in Unit 12.",
+      "answer": "The verbs followed by infinitives in Unit 12 are: expect (We didn't expect to arrive so late), manage (They managed to get an earlier flight), refuse (The airline refused to pay), remember (I didn't remember to bring my toothbrush), try (She tried to sleep on the plane).",
       "options": [
-        "In Unit \"Unit 12: Culture Shock\", the topic \"cultures\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt."
+        "The verbs followed by infinitives in Unit 12 are: expect (We didn't expect to arrive so late), manage (They managed to get an earlier flight), refuse (The airline refused to pay), remember (I didn't remember to bring my toothbrush), try (She tried to sleep on the plane)."
       ],
-      "source": "Unit overview: Unit 12: Culture Shock"
+      "source": "SuperGoal 3 OCR"
     },
     {
-      "id": "unit-12-card-customs",
+      "id": "unit-12-q10",
       "chapterId": "unit-12",
       "chapterTitle": "Unit 12: Culture Shock",
       "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"customs\"?",
-      "answer": "In Unit \"Unit 12: Culture Shock\", the topic \"customs\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt.",
+      "prompt": "What is culture shock? Give an example of a cultural difference from the unit.",
+      "answer": "Culture shock is the feeling of confusion or difficulty when experiencing a new culture. Example from the unit: In the US, people are expected to arrive on time (punctuality is important), Americans introduce themselves with first names, and it is polite to give a small gift when visiting someone's home.",
       "options": [
-        "In Unit \"Unit 12: Culture Shock\", the topic \"customs\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt."
+        "Culture shock is the feeling of confusion or difficulty when experiencing a new culture. Example from the unit: In the US, people are expected to arrive on time (punctuality is important), Americans introduce themselves with first names, and it is polite to give a small gift when visiting someone's home."
       ],
-      "source": "Unit overview: Unit 12: Culture Shock"
-    },
-    {
-      "id": "unit-12-card-comparisons",
-      "chapterId": "unit-12",
-      "chapterTitle": "Unit 12: Culture Shock",
-      "type": "بطاقة مراجعة",
-      "prompt": "What grammar or vocabulary is covered under the topic: \"comparisons\"?",
-      "answer": "In Unit \"Unit 12: Culture Shock\", the topic \"comparisons\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt.",
-      "options": [
-        "In Unit \"Unit 12: Culture Shock\", the topic \"comparisons\" covers: Comparatives and superlatives review, Passive voice introduction, Connectors: although, however, despite. Key vocabulary: culture, custom, tradition, shock, adapt."
-      ],
-      "source": "Unit overview: Unit 12: Culture Shock"
+      "source": "SuperGoal 3 OCR"
     }
   ]
 }
