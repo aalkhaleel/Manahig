@@ -621,3 +621,38 @@ output {
     grid-template-columns: 1fr;
   }
 }
+
+/* ── Book Viewer ────────────────────────────── */
+.book-page-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+#bookPageInfo {
+  font-size: 14px;
+  color: var(--muted);
+  min-width: 60px;
+  text-align: center;
+}
+
+.book-viewer {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bookCanvas {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.12);
+  display: block;
+}

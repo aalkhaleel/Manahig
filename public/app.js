@@ -52,8 +52,18 @@ const extractProgress = document.querySelector("#extractProgress");
 const extractedPreview = document.querySelector("#extractedPreview");
 
 const aiStatus = document.querySelector("#aiStatus");
+const bookNavItem = document.querySelector("#bookNavItem");
+const bookTitle = document.querySelector("#bookTitle");
+const bookPageInfo = document.querySelector("#bookPageInfo");
+const bookPrev = document.querySelector("#bookPrev");
+const bookNext = document.querySelector("#bookNext");
+const bookViewer = document.querySelector("#bookViewer");
+const bookCanvas = document.querySelector("#bookCanvas");
+const bookEmpty = document.querySelector("#bookEmpty");
 
 let lastPdfFile = null;
+let lastPdfDoc = null;
+let bookCurrentPage = 1;
 
 navItems.forEach((item) => {
   item.addEventListener("click", () => showPanel(item.dataset.panel));
@@ -98,11 +108,28 @@ resetButton.addEventListener("click", () => {
   state.answered.clear();
   syllabusText.value = "";
   lastPdfFile = null;
+  lastPdfDoc = null;
+  bookCurrentPage = 1;
+  bookCanvas.hidden = true;
+  bookEmpty.hidden = false;
+  bookTitle.textContent = "لم يتم تحميل ملف PDF بعد";
+  bookPageInfo.textContent = "— / —";
   extractionPanel.hidden = true;
   extractProgress.value = 0;
   extractedPreview.value = "";
   renderAll();
   showPanel("uploadPanel");
+});
+
+bookPrev.addEventListener("click", () => {
+  if (lastPdfDoc && bookCurrentPage > 1) renderBookPage(bookCurrentPage - 1);
+});
+bookNext.addEventListener("click", () => {
+  if (lastPdfDoc && bookCurrentPage < lastPdfDoc.numPages) renderBookPage(bookCurrentPage + 1);
+});
+
+document.querySelector("[data-panel='bookPanel']").addEventListener("click", () => {
+  if (lastPdfDoc) renderBookPage(bookCurrentPage);
 });
 
 chapterFilter.addEventListener("change", renderChapters);
@@ -228,6 +255,25 @@ function makeChaptersFromQuestions(questions) {
   return [...chapters.values()];
 }
 
+async function renderBookPage(pageNumber) {
+  if (!lastPdfDoc) return;
+  pageNumber = Math.max(1, Math.min(pageNumber, lastPdfDoc.numPages));
+  bookCurrentPage = pageNumber;
+  bookPageInfo.textContent = `${pageNumber} / ${lastPdfDoc.numPages}`;
+  bookPrev.disabled = pageNumber <= 1;
+  bookNext.disabled = pageNumber >= lastPdfDoc.numPages;
+
+  const page = await lastPdfDoc.getPage(pageNumber);
+  const containerWidth = bookViewer.clientWidth - 32;
+  const baseViewport = page.getViewport({ scale: 1 });
+  const scale = Math.max(0.5, containerWidth / baseViewport.width);
+  const viewport = page.getViewport({ scale });
+
+  bookCanvas.width = viewport.width;
+  bookCanvas.height = viewport.height;
+  await page.render({ canvasContext: bookCanvas.getContext("2d"), viewport }).promise;
+}
+
 async function readPdf(file, options = {}) {
   try {
     if (!window.pdfjsLib) {
@@ -240,6 +286,15 @@ async function readPdf(file, options = {}) {
 
     const buffer = await file.arrayBuffer();
     const pdf = await pdfjsLib.getDocument({ data: buffer }).promise;
+
+    // Save for book viewer
+    lastPdfDoc = pdf;
+    bookCurrentPage = 1;
+    bookTitle.textContent = file.name;
+    bookPageInfo.textContent = `1 / ${pdf.numPages}`;
+    bookEmpty.hidden = true;
+    bookCanvas.hidden = false;
+
     const pages = [];
 
     for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {

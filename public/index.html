@@ -34,6 +34,10 @@
             <span aria-hidden="true">=</span>
             بنك الأسئلة
           </button>
+          <button class="nav-item" data-panel="bookPanel" type="button" id="bookNavItem">
+            <span aria-hidden="true">&#128214;</span>
+            عرض الكتاب
+          </button>
         </nav>
 
         <div class="stats">
@@ -161,6 +165,23 @@
             </div>
           </div>
           <div class="question-bank" id="questionBank"></div>
+        </section>
+        <section class="panel" id="bookPanel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">عرض الكتاب</p>
+              <h2 id="bookTitle">لم يتم تحميل ملف PDF بعد</h2>
+            </div>
+            <div class="book-page-nav">
+              <button class="secondary-button" id="bookPrev" type="button">&#8592; السابق</button>
+              <span id="bookPageInfo">— / —</span>
+              <button class="secondary-button" id="bookNext" type="button">التالي &#8594;</button>
+            </div>
+          </div>
+          <div class="book-viewer" id="bookViewer">
+            <p class="empty-state" id="bookEmpty">ارفع ملف PDF أولاً لعرضه هنا.</p>
+            <canvas id="bookCanvas" hidden></canvas>
+          </div>
         </section>
       </section>
     </main>
