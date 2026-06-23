@@ -626,15 +626,37 @@ output {
 .book-page-nav {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   flex-shrink: 0;
 }
 
-#bookPageInfo {
+.book-page-jump {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 14px;
   color: var(--muted);
-  min-width: 60px;
+}
+
+#bookPageInput {
+  width: 52px;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 14px;
   text-align: center;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+#bookPageTotal {
+  white-space: nowrap;
+}
+
+.book-loading {
+  font-size: 14px;
+  color: var(--muted);
+  padding: 8px 0;
 }
 
 .book-viewer {

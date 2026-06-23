@@ -174,12 +174,16 @@
             </div>
             <div class="book-page-nav">
               <button class="secondary-button" id="bookPrev" type="button">&#8592; السابق</button>
-              <span id="bookPageInfo">— / —</span>
+              <div class="book-page-jump">
+                <input id="bookPageInput" type="number" min="1" value="1" aria-label="رقم الصفحة" />
+                <span id="bookPageTotal">/ —</span>
+              </div>
               <button class="secondary-button" id="bookNext" type="button">التالي &#8594;</button>
             </div>
           </div>
           <div class="book-viewer" id="bookViewer">
             <p class="empty-state" id="bookEmpty">ارفع ملف PDF أولاً لعرضه هنا.</p>
+            <div id="bookLoading" class="book-loading" hidden>جاري تحميل الصفحة...</div>
             <canvas id="bookCanvas" hidden></canvas>
           </div>
         </section>
