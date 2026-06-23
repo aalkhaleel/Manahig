@@ -262,6 +262,14 @@ async function readPdf(file, options = {}) {
     });
 
     if ((options.forceOcr || !quality.isGood) && window.Tesseract) {
+      renderExtractionDiagnostics({
+        title: "PDF مصور — جاري تشغيل OCR لقراءة النص...",
+        pageCount: pdf.numPages,
+        text: extractedText,
+        quality,
+        progress: 45,
+        allowOcr: false,
+      });
       const ocrText = await extractPdfWithOcr(pdf);
       const ocrQuality = assessTextQuality(ocrText);
       if (ocrQuality.score >= quality.score || options.forceOcr) {
@@ -322,33 +330,48 @@ async function extractPdfWithOcr(pdf) {
     throw new Error("OCR_READER_UNAVAILABLE");
   }
 
-  const texts = [];
-  const pageLimit = Math.min(pdf.numPages, 40);
+  const pageLimit = Math.min(pdf.numPages, 25);
+  setExtractionStatus(`تم اكتشاف PDF مصور — جاري تحميل محرك OCR للعربية (قد يستغرق دقيقة)...`, 46);
 
-  for (let pageNumber = 1; pageNumber <= pageLimit; pageNumber += 1) {
-    setExtractionStatus(`OCR للصفحة ${pageNumber} من ${pageLimit}`, 45 + (pageNumber / pageLimit) * 50);
-    const page = await pdf.getPage(pageNumber);
-    const viewport = page.getViewport({ scale: 1.7 });
-    const canvas = document.createElement("canvas");
-    const context = canvas.getContext("2d", { willReadFrequently: true });
-    canvas.width = viewport.width;
-    canvas.height = viewport.height;
-    await page.render({ canvasContext: context, viewport }).promise;
-
-    const result = await Tesseract.recognize(canvas, "ara+eng", {
+  let worker;
+  try {
+    worker = await Tesseract.createWorker("ara+eng", 1, {
       logger: (event) => {
-        if (event.status === "recognizing text") {
-          const pageProgress = event.progress || 0;
-          const totalProgress = 45 + ((pageNumber - 1 + pageProgress) / pageLimit) * 50;
-          setExtractionStatus(`OCR للصفحة ${pageNumber} من ${pageLimit}`, totalProgress);
+        if (event.status === "loading tesseract core") {
+          setExtractionStatus("تحميل محرك OCR...", 47);
+        } else if (event.status === "loading language traineddata") {
+          setExtractionStatus("تحميل بيانات اللغة العربية...", 48 + (event.progress || 0) * 4);
+        } else if (event.status === "initializing api") {
+          setExtractionStatus("تهيئة OCR...", 53);
         }
       },
     });
-    texts.push(`صفحة ${pageNumber}\n${result.data.text}`);
+  } catch {
+    throw new Error("OCR_READER_UNAVAILABLE");
   }
 
+  const texts = [];
+  for (let pageNumber = 1; pageNumber <= pageLimit; pageNumber += 1) {
+    setExtractionStatus(`OCR للصفحة ${pageNumber} من ${pageLimit}`, 55 + (pageNumber / pageLimit) * 40);
+    try {
+      const page = await pdf.getPage(pageNumber);
+      const viewport = page.getViewport({ scale: 2.5 });
+      const canvas = document.createElement("canvas");
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+      await page.render({ canvasContext: canvas.getContext("2d", { willReadFrequently: true }), viewport }).promise;
+      const result = await worker.recognize(canvas);
+      const text = result.data.text.trim();
+      if (text) texts.push(`صفحة ${pageNumber}\n${text}`);
+    } catch {
+      // skip unreadable page
+    }
+  }
+
+  await worker.terminate();
+
   if (pdf.numPages > pageLimit) {
-    texts.push(`تنبيه: تم تشغيل OCR على أول ${pageLimit} صفحة فقط لتجنب بطء المتصفح. يمكن تقسيم الملف أو استخدام PDF نصي كامل.`);
+    texts.push(`تنبيه: تم تشغيل OCR على أول ${pageLimit} صفحة فقط. إذا احتجت لصفحات أكثر، قسّم الملف.`);
   }
 
   return texts.join("\n\n").trim();
