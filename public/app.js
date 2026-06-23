@@ -129,7 +129,7 @@ bookNext.addEventListener("click", () => {
 });
 
 document.querySelector("[data-panel='bookPanel']").addEventListener("click", () => {
-  if (lastPdfDoc) renderBookPage(bookCurrentPage);
+  if (lastPdfDoc) requestAnimationFrame(() => renderBookPage(bookCurrentPage));
 });
 
 chapterFilter.addEventListener("change", renderChapters);
@@ -264,7 +264,7 @@ async function renderBookPage(pageNumber) {
   bookNext.disabled = pageNumber >= lastPdfDoc.numPages;
 
   const page = await lastPdfDoc.getPage(pageNumber);
-  const containerWidth = bookViewer.clientWidth - 32;
+  const containerWidth = (bookViewer.clientWidth || 800) - 32;
   const baseViewport = page.getViewport({ scale: 1 });
   const scale = Math.max(0.5, containerWidth / baseViewport.width);
   const viewport = page.getViewport({ scale });
@@ -294,6 +294,7 @@ async function readPdf(file, options = {}) {
     bookPageInfo.textContent = `1 / ${pdf.numPages}`;
     bookEmpty.hidden = true;
     bookCanvas.hidden = false;
+    renderBookPage(1);
 
     const pages = [];
 
